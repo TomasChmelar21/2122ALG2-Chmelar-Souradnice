@@ -4,9 +4,11 @@ Mám poměrně dlouhý soubor se souřadnicemi keší na stránce geocaching.com
 Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/okresu/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové. Funkce můžou přibývat dle podmínek
 
 ### Příklad ze souboru
-GC kód jméno souřadnice okres GC28VHF Stihacka 49°41.041N, 014°00.291E PB
+GC kód jméno souřadnice
 
-GC3EV4M Stinkyho fretci keska 50°21.550N, 014°28.833E ME
+GC28VHF Stihacka 49°41.041N, 014°00.291E
+
+GC3EV4M Stinkyho fretci keska 50°21.550N, 014°28.833E
 
 ## Podmínky:
 Menu, které umožní opakovaný výběr funkcí aplikácie a ukončení aplikace
