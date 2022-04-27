@@ -4,10 +4,12 @@ Mám poměrně dlouhý soubor se souřadnicemi keší na stránce geocaching.com
 Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/okresu/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové. Funkce můžou přibývat dle podmínek
 
 ### Funkce
-Po zadání souřadnic levého horního rohu a pravého dolního rohu (obdelník dající se přirovnat k obrazovce mobilu) vyhledá v souboru všechny souřadnice v tomto obdelníku
-Ze seznamu souřadnic v obdelníku bude uživatel moci vybrat konkrétní a:   vytvořit internetový odkaz na cache
-                                                                          otevřít bod na mapě
-                                                                          uložit do "speciálního" textového dokumentu jen pro uložené body (ten se bude dát procházet,mazat)
+Po zadání souřadnic levého horního rohu a pravého dolního rohu (obdelník dající se přirovnat k obrazovce mobilu) vyhledá v souboru všechny souřadnice v tomto obdelníku<br><br>
+Ze seznamu souřadnic v obdelníku bude uživatel moci vybrat konkrétní a:   
+* vytvořit internetový odkaz na cache<br>
+* otevřít bod na mapě<br>
+* uložit do "speciálního" textového dokumentu jen pro uložené body (ten se bude dát procházet,mazat)<br><br>
+
 Do souboru se budou moci přidávat nové souřadnice a odebírat staré
 
 ### Příklad ze souboru
