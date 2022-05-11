@@ -1,7 +1,7 @@
 # Vyhledávání souřadnic dle kritérií
 Mám poměrně dlouhý soubor se souřadnicemi keší na stránce geocaching.com, jenže je řazen podle abecedy, tudíž občas vyhledávání není ideální.
 
-Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/okresu/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové. Funkce můžou přibývat dle podmínek
+Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové. Funkce můžou přibývat dle podmínek
 
 ### Funkce
 Po zadání souřadnic levého horního rohu a pravého dolního rohu (obdelník dající se přirovnat k obrazovce mobilu) vyhledá v souboru všechny souřadnice v tomto obdelníku<br><br>
@@ -20,9 +20,9 @@ GC28VHF Stihacka 49°41.041N, 014°00.291E
 GC3EV4M Stinkyho fretci keska 50°21.550N, 014°28.833E
 
 ## Podmínky:
-Menu, které umožní opakovaný výběr funkcí aplikácie a ukončení aplikace
+Menu, které umožní opakovaný výběr funkcí aplikácie a ukončení aplikace✅
 
-Přehledný výpis výsledků na konzoli - použijte alespoň jednou String.format() a StringBuilder
+Přehledný výpis výsledků na konzoli - použijte alespoň jednou String.format() a StringBuilder✅
 
 Načítání vstupních dat z minimálně dvou souborů
 
@@ -30,7 +30,7 @@ Zápis výstupních dat do souboru
 
 Možnosť práce s textovými a binárními soubory (alespoň někde)
 
-Ideálně využití reálných otevřených dat
+Ideálně využití reálných otevřených dat✅
 
 Adresář data se všemi datovými soubory a případně třídu Datastore se statickými metodami, které budou poskytovat další statická data.
 
@@ -40,7 +40,7 @@ Programování vůči rozhraní a použití vlastního rozhraní
 
 Použití java.time API pro práci s časem
 
-Použít enum typ
+Použít enum typ✅
 
 Použití kontejnerové třídy jazyka Java (ArrayList, LinkedList, HashMap ...) z Collections frameworku.
 
