@@ -5,6 +5,7 @@
  */
 package gcsouradnice;
 
+import gcsouradnice.data.Database;
 import java.util.Scanner;
 
 /**
@@ -20,7 +21,6 @@ public class GCcoordinates {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int choice;
-       
         Menus.MainMenu();
         
         choice = sc.nextInt();

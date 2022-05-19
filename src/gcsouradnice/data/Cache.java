@@ -10,35 +10,30 @@ package gcsouradnice.data;
  * @author tomch
  */
 public class Cache {
-    private static final double LONGITUDE_MIN = -180;
+    /*private static final double LONGITUDE_MIN = -180;
     private static final double LONGITUDE_MAX = 180;
     private static final double LATITUDE_MIN = -90;
-    private static final double LATITUDE_MAX = 90;
+    private static final double LATITUDE_MAX = 90;*/
     
     private String code;
-    private String latitude;
-    private String longtitude;
+    private Coordinates coords;
     private String name;
     private Found found;
     
-    private Cache(String code, String latitude, String longtitude, String name){
+    public Cache(String code, String latitude, String longtitude, String name){
         this.code = code;
-        this.name = name;
-        this.latitude = latitude;
-        this.longtitude = longtitude;
+        this.name = name.replace("_", " ");
+        this.coords = Coordinates.getCoordinatesfromString(latitude, longtitude);
         this.found = Found.NotFound; //na začátku vždy ne
+    }
+    
+    public static Cache newCache(String code, String latitude, String longtitude, String name){
+        Cache cache = new Cache(code, latitude, longtitude, name);
+        return cache;
     }
 
     public String getCode() {
         return code;
-    }
-
-    public String getLatitude() {
-        return latitude;
-    }
-
-    public String getLongtitude() {
-        return longtitude;
     }
 
     public String getName() {
@@ -53,14 +48,6 @@ public class Cache {
         this.code = code;
     }
 
-    public void setLatitude(String latitude) {
-        this.latitude = latitude;
-    }
-
-    public void setLongtitude(String longtitude) {
-        this.longtitude = longtitude;
-    }
-
     public void setName(String name) {
         this.name = name;
     }
@@ -72,9 +59,13 @@ public class Cache {
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
-        s.append(code).append("  ").append(latitude).append("  ").append(longtitude).append("  ").append(name).append("  ").append(found).append("\n");
-        return s.toString();
+        return String.format("%-9s %-25s %-50s", code, coords.toString(), name);
     }
+    
+    public String getLink(){
+        return "www.geocaching.com/geocache/"+ code;
+    }
+
     
     
 }
