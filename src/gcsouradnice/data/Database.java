@@ -40,12 +40,37 @@ public class Database {
         }
     }
     
-    public static String printloaded(){
+    public static String printLoaded(){
         StringBuilder sb = new StringBuilder();
+        int order = 0;
         for (Cache loadedCache : loadedCaches) {
-            sb.append(loadedCache.toString()).append("\n");
+            sb.append(order + "  ").append(loadedCache.toString()).append("\n");
         }
         return sb.toString();
+    }
+    
+    public static String printArray(ArrayList<Cache> caches){
+        StringBuilder sb = new StringBuilder();
+        int order = 0;
+        for (Cache cache : caches) {
+            order++;
+            sb.append(order + "  ").append(cache.toString()).append("\n");
+        }
+        return sb.toString();
+    }
+    
+    public static ArrayList<Cache> cachesinArea(Coordinates a, Coordinates b){
+        ArrayList<Cache> caches = new ArrayList<>();
+        for (Cache loadedCache : loadedCaches) {
+            if (loadedCache.getCoords().isinArea(a, b)) {
+                caches.add(loadedCache);
+            }
+        }
+        return caches;
+    }
+    
+    public static Cache cachefromList(int code, ArrayList<Cache> array){
+        return array.get(code-1);
     }
     
     public static void main(String[] args) {
@@ -56,9 +81,18 @@ public class Database {
                     System.out.println(e.getMessage());
                 }
                 
-                System.out.println(printloaded());
+                /*System.out.println(printloaded());
                 //System.out.println((database.loadedCaches.get(2).getCode())).getLink();
-                System.out.println((database.loadedCaches.get(2)).getLink());
+                System.out.println((database.loadedCaches.get(2)).getLink());*/
+                
+                Coordinates a = Coordinates.getCoordinatesfromString("50°46.176N", "015°01.110E");
+                Coordinates b = Coordinates.getCoordinatesfromString("50°42.945N", "015°11.365E");
+                ArrayList<Cache> array = cachesinArea(a,b);
+                System.out.println(printArray(array));
+                Cache cs = cachefromList(5, array);
+                System.out.println(cs.getLink());
+                
+                
     }
     
 }

@@ -61,6 +61,20 @@ public class Coordinates {
         return coords;
     }
     
+    
+    public boolean isinArea(Coordinates a, Coordinates b){
+        if (hourslat < a.hourslat && hourslat > b.hourslat && hourslong > a.hourslong && hourslong < b.hourslong) {
+            return true;
+        }
+        
+        if (hourslat <= a.hourslat && hourslat >= b.hourslat && hourslong >= a.hourslong && hourslong <= b.hourslong) {
+            if (minuteslat <= a.minuteslat && minuteslat >= b.minuteslat && minuteslong >= a.minuteslong && minuteslong <= b.minuteslong) {
+                return true;
+            }
+        }
+        
+        return false;
+    }
     @Override
     public String toString(){
         DecimalFormat formatter = new DecimalFormat("#00.000");
