@@ -36,6 +36,10 @@ public class Cache {
         return code;
     }
 
+    public Coordinates getCoords() {
+        return coords;
+    }
+
     public String getName() {
         return name;
     }
@@ -52,8 +56,8 @@ public class Cache {
         this.name = name;
     }
 
-    public void setFound(Found Found) {
-        this.found = Found;
+    public void setFound(Found state) {
+        this.found = state;
     }
 
     @Override
