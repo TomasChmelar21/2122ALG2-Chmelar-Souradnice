@@ -38,15 +38,15 @@ Tri balíčky: a. ui – třídy, tvořící uživatelské rozhraní - komunikac
 
 Programování vůči rozhraní a použití vlastního rozhraní
 
-Použití java.time API pro práci s časem
+Použití java.time API pro práci s časem✅
 
 Použít enum typ✅
 
-Použití kontejnerové třídy jazyka Java (ArrayList, LinkedList, HashMap ...) z Collections frameworku.
+Použití kontejnerové třídy jazyka Java (ArrayList, LinkedList, HashMap ...) z Collections frameworku.✅
 
 Alespoň dvě možnosti třídění s využitím rozhraní Comparable a Comparator
 
-Použití regulárního výrazu
+Použití regulárního výrazu✅
 
 Ošetření vstupů, aby chybné vstupy nezpůsobily pád programu - pomocí existujících a vlastních výjimek
 
