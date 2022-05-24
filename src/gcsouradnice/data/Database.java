@@ -6,50 +6,83 @@
 package gcsouradnice.data;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.io.EOFException;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 /**
  *
  * @author tomch
  */
 public class Database {
-    private static ArrayList<Cache> loadedCaches;
+    private ArrayList<Cache> loadedCaches;
     
     public Database(){
            loadedCaches = new ArrayList<>();
     }
-    
+    /**
+     * loading caches from file
+     * @param database file from which we reading
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
     public void loadCaches(File database) throws FileNotFoundException, IOException {
         try(BufferedReader br = new BufferedReader(new FileReader(database))){
         String line;
         String[] parts;
-        Cache r;
+        Cache r = null;
         br.readLine();
-        line = br.readLine();
-        while(line != null) {
+        while((line = br.readLine()) != null) {           
             parts = line.split("[ ]");
             //String code, String latitude, String longtitude, String name
             r = new Cache(parts[0], parts[1], parts[2], parts[3]);
             loadedCaches.add(r);
-            line = br.readLine();
         }
+            
         }
     }
+    /**
+     * getting array
+     * @return array of caches
+     */
+    public ArrayList<Cache> getLoadedCaches() {
+        return loadedCaches;
+    }
+    /**
+     * setting array
+     * @param loadedCaches array of caches
+     */
+    public void setLoadedCaches(ArrayList<Cache> loadedCaches) {
+        this.loadedCaches = loadedCaches;
+    }
     
-    public static String printLoaded(){
+    /**
+     * return String of array
+     * @return array in String
+     */
+    public String printLoaded(){
         StringBuilder sb = new StringBuilder();
         int order = 0;
         for (Cache loadedCache : loadedCaches) {
+            order++;
             sb.append(order + "  ").append(loadedCache.toString()).append("\n");
         }
         return sb.toString();
     }
     
-    public static String printArray(ArrayList<Cache> caches){
+    /*public static String printArray(ArrayList<Cache> caches){
         StringBuilder sb = new StringBuilder();
         int order = 0;
         for (Cache cache : caches) {
@@ -57,9 +90,104 @@ public class Database {
             sb.append(order + "  ").append(cache.toString()).append("\n");
         }
         return sb.toString();
+    }*/
+    /**
+     * writing data to file
+     * @param results File where we wanna to write
+     * @throws IOException 
+     */
+    public void exportToFile(File results) throws IOException{
+        try ( PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(results, true)))) {
+            pw.println("GCKod" + " " + "Latitude" + " " + "Longtitude" + " " + "Name");
+            for (Cache loadedCache : loadedCaches) {
+                pw.println(loadedCache.filetoString());
+            }
+        }            
+    }
+    /**
+     * add one cache to file
+     * @param results File where we wanna to write
+     * @param cache cache which we wanna to add
+     * @throws IOException 
+     */
+    public void addCacheToFile(File results, Cache cache) throws IOException{
+        try ( PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(results, true)))) {
+                pw.println(cache.filetoString());
+        }  catch(Exception e){
+        
+        }
+    }
+    /**
+     * writing data to binary file
+     * @param results File where we wanna to write
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
+    public void saveToBinaryFile(File results) throws FileNotFoundException, IOException {
+        try ( DataOutputStream out = new DataOutputStream(new FileOutputStream(results, true))) {
+            int nLetters;
+            out.writeInt(loadedCaches.size());
+            for (Cache cache : loadedCaches) {
+                //out.writeInt(cache.getRegistracniCislo());
+                out.writeUTF(cache.getCode());
+                out.writeUTF(cache.getCoords().toString());
+                out.writeUTF(cache.nameToOneString());
+            }
+        }
+    }
+    /**
+     * returning read informations from File
+     * @param results File from where we reading
+     * @return String of data from file
+     * @throws FileNotFoundException
+     * @throws IOException 
+     */
+    public String readFromBinaryResults(File results) throws FileNotFoundException, IOException {
+        StringBuilder sb = new StringBuilder();
+        int nCaches;
+        String code = "", latitude = "", longtitude = "", name = "";
+        int rank = 1;
+        try ( DataInputStream in = new DataInputStream(new FileInputStream(results))) {
+            boolean end = false;
+            while (!end) {
+                try {
+                    rank = 1;
+                    nCaches = in.readInt();
+                    for (int i = 0; i < nCaches; i++) {
+                        code = in.readUTF();
+                        latitude = in.readUTF();
+                        longtitude = in.readUTF();
+                        name = in.readUTF();
+                        sb.append(String.format("%7s %10s %11s %30%n",
+                                rank, code, latitude, longtitude, name));
+                        rank++;
+                    }
+                    sb.append("\n");
+                } catch (EOFException e) {
+                    end = true;
+                }
+            }
+        }
+        return sb.toString();
+    }
+    /**
+     * sorting array by GCcode
+     */
+    public void sortByGCcode() {
+        Comparator comp = new ComparatorCachesByCode();
+        Collections.sort(loadedCaches, comp);
     }
     
-    public static ArrayList<Cache> cachesinArea(Coordinates a, Coordinates b){
+    /*public void sortByTime() {
+        Collections.sort(loadedCaches);
+    }*/
+        /**
+         * searching caches in area (rectangle)
+         * @param a coordinates a
+         * @param b coordinates b
+         * @return array of Caches in rectangle
+         */
+    public ArrayList<Cache> cachesinArea(Coordinates a, Coordinates b){
         ArrayList<Cache> caches = new ArrayList<>();
         for (Cache loadedCache : loadedCaches) {
             if (loadedCache.getCoords().isinArea(a, b)) {
@@ -68,31 +196,41 @@ public class Database {
         }
         return caches;
     }
+     
+    /*public Cache cachefromList(int code){
+        return loadedCaches.get(code-1);
+    }*/
     
-    public static Cache cachefromList(int code, ArrayList<Cache> array){
-        return array.get(code-1);
-    }
-    
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Database database = new Database();
                 try{
-                    database.loadCaches(new File("./Data/Database.txt"));
+                    database.loadCaches(new File("./Data/Database_other1.txt"));
                 } catch(Exception e){
                     System.out.println(e.getMessage());
                 }
-                
-                /*System.out.println(printloaded());
+                //System.out.println(database.printLoaded());
                 //System.out.println((database.loadedCaches.get(2).getCode())).getLink();
-                System.out.println((database.loadedCaches.get(2)).getLink());*/
+                //System.out.println((database.loadedCaches.get(2)).getLink());
                 
-                Coordinates a = Coordinates.getCoordinatesfromString("50°46.176N", "015°01.110E");
+                /*Coordinates a = Coordinates.getCoordinatesfromString("50°46.176N", "015°01.110E");
                 Coordinates b = Coordinates.getCoordinatesfromString("50°42.945N", "015°11.365E");
                 ArrayList<Cache> array = cachesinArea(a,b);
-                System.out.println(printArray(array));
-                Cache cs = cachefromList(5, array);
+                System.out.println(printArray(array));*/
+                /*Cache cs = cachefromList(5, array);
                 System.out.println(cs.getLink());
-                
-                
+                String parent = System.getProperty("user.dir")+ File.separator +"data";
+                File dataDirectory = new File(parent);
+                String filename = "Database_other2.txt";
+                database.saveToBinaryFile(new File(dataDirectory, filename));
+                try{
+                    database.loadCaches(new File("./Data/Database_other2.txt"));
+                    System.out.println(printLoaded());
+                } catch(Exception e){
+                    System.out.println(e.getMessage());
+                }
+                database.sortByPrijmeni();
+                System.out.println(printLoaded());*/
+               
     }
     
 }
