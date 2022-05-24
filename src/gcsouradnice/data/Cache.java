@@ -27,7 +27,7 @@ public class Cache {
         this.found = Found.NotFound; //na začátku vždy ne
     }
     
-    public static Cache newCache(String code, String latitude, String longtitude, String name){
+    public /*static*/ Cache newCache(String code, String latitude, String longtitude, String name){
         Cache cache = new Cache(code, latitude, longtitude, name);
         return cache;
     }
@@ -59,7 +59,15 @@ public class Cache {
     public void setFound(Found state) {
         this.found = state;
     }
-
+    
+    public String nameToOneString(){
+        return name.replace(" ", "_");     
+    }
+    
+    public String filetoString() {
+        StringBuilder s = new StringBuilder();
+        return code + " " + coords.toString() + " " + nameToOneString();    
+    }
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();

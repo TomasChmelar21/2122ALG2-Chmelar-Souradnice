@@ -6,6 +6,7 @@
 package gcsouradnice.data;
 
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.Locale;
 
 /**
@@ -24,7 +25,8 @@ public class Coordinates {
     private char directionlong;
     private int hourslong;
     private double minuteslong;
-    
+    Locale usLocale = new Locale("en","US");
+    NumberFormat usForm = NumberFormat.getInstance(usLocale);
     private Coordinates(char slat, int hourslat, double minuteslat, char slong, int hourslong, double minuteslong){
         this.directionlat = slat;
         this.hourslat = hourslat;
@@ -34,9 +36,18 @@ public class Coordinates {
         this.minuteslong = minuteslong;
     
     }
-    
+    /**
+     * check correct coordinates
+     * @param slat
+     * @param hourslat
+     * @param minuteslat
+     * @param slong
+     * @param hourslong
+     * @param minuteslong
+     * @return 
+     */
     public static boolean check(char slat, int hourslat, double minuteslat, char slong, int hourslong, double minuteslong){
-        if ((slat != 'N' || slat != 'S') || (slong != 'W' || slong != 'E')) {
+        if (((!Character.toString(slat).equals("N") || !Character.toString(slat).equals("S")) && (!Character.toString(slong).equals("W") || !Character.toString(slong).equals("E")))) {
             return false;
         }
         
@@ -53,7 +64,12 @@ public class Coordinates {
         }
         return true;
     }
-    
+    /**
+     * transfer string coordinates to coordinates
+     * @param coordslat latitude coordinate
+     * @param coordslong longtitude coordinate
+     * @return 
+     */
     public static Coordinates getCoordinatesfromString(String coordslat, String coordslong){
         String[] partslat = coordslat.split("[ °]");
         String[] partslong = coordslong.split("[ °]");
@@ -61,7 +77,12 @@ public class Coordinates {
         return coords;
     }
     
-    
+    /**
+     * checking if coordinates are in area
+     * @param a left upper coordinates
+     * @param b right down coordinates
+     * @return if coordinates are in rectangle
+     */
     public boolean isinArea(Coordinates a, Coordinates b){
         if (hourslat < a.hourslat && hourslat > b.hourslat && hourslong > a.hourslong && hourslong < b.hourslong) {
             return true;
@@ -75,10 +96,13 @@ public class Coordinates {
         
         return false;
     }
+    /**
+     * return coordinates in String
+     * @return  String of coordinates
+     */
     @Override
     public String toString(){
-        DecimalFormat formatter = new DecimalFormat("#00.000");
-        return hourslat + "°" + formatter.format(minuteslat) + directionlat + " " + hourslong + "°" + formatter.format(minuteslong) + directionlong;
+        return hourslat + "°" + usForm.format(minuteslat) + directionlat + " " + hourslong + "°" + usForm.format(minuteslong) + directionlong;
         //return String.format(Locale.US,"%2d°%2.3f%s %3d°%2.3f%s", hourslat, minuteslat, directionlat, hourslong, minuteslong, directionlong);
     }
     
@@ -95,6 +119,8 @@ public class Coordinates {
          System.out.println(coords.hourslong);
          System.out.println(coords.minuteslong);   
          System.out.println(coords.toString());*/
+         Coordinates New = new Coordinates('N', 50, 05.215, 'E', 14, 42.504);
+         System.out.println(New.toString());
     }  
     
 }

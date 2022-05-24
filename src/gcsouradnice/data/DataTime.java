@@ -11,11 +11,18 @@ package gcsouradnice.data;
  */
 import java.time.LocalDate;    
 public class DataTime {    
-  public String today(){
+    /**
+     * 
+     * @return String with today date 
+     */
+  public static String today(){
       return "Today date: " + LocalDate.now(); 
   }
-  
-  public String tomorrow(){
+  /**
+   * 
+   * @return String with tomorrow date 
+   */
+  public static String tomorrow(){
       return "Tomorrow date: " + LocalDate.now().plusDays(1); 
   }
   
