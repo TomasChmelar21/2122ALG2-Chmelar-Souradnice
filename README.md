@@ -26,7 +26,7 @@ Přehledný výpis výsledků na konzoli - použijte alespoň jednou String.form
 
 Načítání vstupních dat z minimálně dvou souborů
 
-Zápis výstupních dat do souboru
+Zápis výstupních dat do souboru✅
 
 Možnosť práce s textovými a binárními soubory (alespoň někde)
 
@@ -36,7 +36,7 @@ Adresář data se všemi datovými soubory a případně třídu Datastore se st
 
 Tri balíčky: a. ui – třídy, tvořící uživatelské rozhraní - komunikaci s uživatelem b. app – třídy, tvořící logiku s daty aplikácie - modely, kontrolery c. utils – pomocné třídy např. vlastní výjimky, vlastní rozhraní
 
-Programování vůči rozhraní a použití vlastního rozhraní
+Programování vůči rozhraní a použití vlastního rozhraní✅
 
 Použití java.time API pro práci s časem✅
 
@@ -50,7 +50,7 @@ Použití regulárního výrazu✅
 
 Ošetření vstupů, aby chybné vstupy nezpůsobily pád programu - pomocí existujících a vlastních výjimek
 
-Vhodné ošetření povinně ošetřovaných výjimek
+Vhodné ošetření povinně ošetřovaných výjimek✅
 
 Použití Vámi vybrané externí knihovny (audio, posílání emailů, práce s obrázkem, junit testování, jiné formáty uložení dat ...)
 
