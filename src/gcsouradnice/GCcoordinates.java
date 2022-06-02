@@ -7,13 +7,13 @@ package gcsouradnice;
 
 import gcsouradnice.data.Cache;
 import gcsouradnice.data.Coordinates;
-import static gcsouradnice.data.Coordinates.getCoordinatesfromString;
-import gcsouradnice.data.DataTime;
+import utils.DataTime;
 import gcsouradnice.data.Database;
 import gcsouradnice.data.Found;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Scanner;
+import utils.CoordinatesMethods;
 
 /**
  *
@@ -28,7 +28,7 @@ public class GCcoordinates {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
         int choice, choicecache = 0;
-        String source, lathcoordslu, lathcoordsrd, longhcoordslu, longhcoordsrd, latmcoordslu, latmcoordsrd, longmcoordslu, longmcoordsrd;
+        String source, latcoordslu, latcoordsrd, longcoordslu, longcoordsrd;
         Database database = new Database();
         Database inRectangle = new Database();
         Database actualDatabase = database;
@@ -37,7 +37,7 @@ public class GCcoordinates {
         
         
         System.out.println(DataTime.today());
-        Menus.mainMenu();
+        mainMenu();
         
         while((choice = sc.nextInt()) != 0){
             switch(choice){
@@ -52,8 +52,8 @@ public class GCcoordinates {
                         */
                     System.out.println("Where you wanna write new cache (in ./Data/....)");
                     source = sc.next();
-                    System.out.println("Enter gradually: GCcode, Latitude NN°NN.NNNC, Longtitude NNN°NN.NNNC and Name");
-                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),sc.next(),sc.next(),sc.next()));
+                    System.out.println("Enter gradually: GCcode, Latitude NN°NN.NNNC, Longtitude NNN°NN.NNNC. amount of favourite points and Name");
+                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),sc.next(),sc.next(),sc.nextInt(),sc.next()));
                     //database.addCacheToFile(new File("./Data/Database_other1.txt"), new Cache("GC9GYD3","50°45.502N","015°04.171E","Znám Liberec? IV."));
                     System.out.println("set up successfully");
                     }catch(Exception e){
@@ -90,23 +90,15 @@ public class GCcoordinates {
                     Frýdlant            50°55.283N     015°04.784E
                     Český Dub           50°39.574N     014°59.740E
                     */
-                    System.out.println("Enter the latitude degrees of the upper left corner of the rectangle in format NN N = number");
-                    lathcoordslu = sc.next();
-                    System.out.println("Enter the latitude minutes of the upper left corner of the rectangle in format NN.NNN N = number");
-                    latmcoordslu = sc.next();
-                    System.out.println("Enter the longtitude degrees of the upper left corner of the rectangle in format NNN N = number");
-                    longhcoordslu = sc.next();
-                    System.out.println("Enter the longtitude minutes of the upper left corner of the rectangle in format NN.NNN N = number");
-                    longmcoordslu = sc.next();
-                    System.out.println("Enter the latitude degrees of the lower right corner of the rectangle in format NN = number");
-                    lathcoordsrd = sc.next();
-                    System.out.println("Enter the latitude minutes of the lower right corner of the rectangle in format NN.NNN = number");
-                    latmcoordsrd = sc.next();
-                    System.out.println("Enter the longtitude degrees of the lower right corner of the rectangle in format NNN N = number");
-                    longhcoordsrd = sc.next();
-                    System.out.println("Enter the longtitude minutes of the lower right corner of the rectangle in format NN.NNN N = number");
-                    longmcoordsrd = sc.next();
-                    inRectangle.setLoadedCaches(database.cachesinArea(Coordinates.getCoordinatesfromString(lathcoordslu+"°"+latmcoordslu+"N", longhcoordslu+"°"+longmcoordslu+"E"), Coordinates.getCoordinatesfromString(lathcoordsrd+"°"+latmcoordsrd+"N", longhcoordsrd+"°"+longmcoordsrd+"E")));
+                    System.out.println("Enter the latitude degrees of the upper left corner of the rectangle in format NN.NN.NNND N = number D = char (N or S)");
+                    latcoordslu = sc.next();
+                    System.out.println("Enter the longtitude degrees of the upper left corner of the rectangle in format NNN.NN.NNND = number D = char (E or W)");
+                    longcoordslu = sc.next();
+                    System.out.println("Enter the latitude degrees of the lower right corner of the rectangle in format NN.NN.NNND = number D = char (N or S)");
+                    latcoordsrd = sc.next();
+                    System.out.println("Enter the longtitude minutes of the lower right corner of the rectangle in format NNN.NN.NNND N = number D = char (E or W)");
+                    longcoordsrd = sc.next();
+                    inRectangle.setLoadedCaches(database.cachesinArea(CoordinatesMethods.getCoordinatesfromString(latcoordslu.replaceFirst("[.]","°"), longcoordslu.replaceFirst("[.]","°")), CoordinatesMethods.getCoordinatesfromString(latcoordsrd.replaceFirst("[.]","°"), longcoordsrd.replaceFirst("[.]","°"))));
                     //inRectangle.setLoadedCaches(database.cachesinArea(Coordinates.getCoordinatesfromString("50°46.176N", "015°01.110E"), Coordinates.getCoordinatesfromString("50°42.945N", "015°11.365E")));
                     System.out.println(inRectangle.printLoaded());
                     actualDatabase = inRectangle;
@@ -127,6 +119,20 @@ public class GCcoordinates {
                             source = sc.next();
                             database.loadCaches(new File("./Data/"+source));
                             System.out.println(database.printLoaded());
+                            sortMenu();
+                            choice = sc.nextInt();
+                            switch(choice){
+                                case 1:
+                                    database.sortByGCcode();
+                                    System.out.println(database.printLoaded());
+                                    break;
+                                case 2:
+                                    database.sortByFP();
+                                    System.out.println(database.printLoaded());
+                                    break;
+                                default:
+                                    break;
+                            }
                             System.out.println("If you want to work with cache from document, enter its number(left column), otherwise enter 0");
                             choicecache = sc.nextInt();
                             actualDatabase = database;
@@ -143,7 +149,7 @@ public class GCcoordinates {
             }
             
             if (choicecache != 0) {
-                Menus.cacheMenu();
+                cacheMenu();
                 choice = sc.nextInt();
                 switch(choice){
                 case 1:
@@ -170,7 +176,35 @@ public class GCcoordinates {
                 }  
             } 
             choicecache = 0;
-            Menus.mainMenu();
+            mainMenu();
         }
+    }
+    
+    public static void mainMenu(){
+        System.out.println("1-add new cache to database");
+        System.out.println("2-find caches in rectangle");
+        System.out.println("3-show all from file");
+        System.out.println("0-end app");
+        
+    }
+    
+    public static void cacheMenu(){
+        System.out.println("1-generate URL address");
+        System.out.println("2-show coordinates on map");
+        System.out.println("3-add to watchlist");
+        System.out.println("4-set as Found");
+        System.out.println("0-back to main menu");
+    }
+    
+    public static void chooseCacheMenu(){
+        System.out.println("1-generate URL address");
+        System.out.println("2-show coordinates on map");
+        System.out.println("3-add to watchlist");
+        System.out.println("0-back to main menu");
+    }
+    public static void sortMenu(){
+        System.out.println("1-sort by GCcode");
+        System.out.println("2-sort by favorite points");
+        System.out.println("0-exit from sort menu");
     }
 }

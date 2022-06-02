@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package gcsouradnice.data;
+package utils;
 
+import gcsouradnice.data.Cache;
 import gcsouradnice.data.Cache;
 import java.util.Comparator;
 

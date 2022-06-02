@@ -5,6 +5,7 @@
  */
 package gcsouradnice.data;
 
+import utils.ComparatorCachesByCode;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.DataInputStream;
@@ -40,6 +41,7 @@ public class Database {
      */
     public void loadCaches(File database) throws FileNotFoundException, IOException {
         try(BufferedReader br = new BufferedReader(new FileReader(database))){
+        loadedCaches.clear();
         String line;
         String[] parts;
         Cache r = null;
@@ -47,7 +49,7 @@ public class Database {
         while((line = br.readLine()) != null) {           
             parts = line.split("[ ]");
             //String code, String latitude, String longtitude, String name
-            r = new Cache(parts[0], parts[1], parts[2], parts[3]);
+            r = new Cache(parts[0], parts[1], parts[2], Integer.parseInt(parts[3]), parts[4]);
             loadedCaches.add(r);
         }
             
@@ -77,7 +79,7 @@ public class Database {
         int order = 0;
         for (Cache loadedCache : loadedCaches) {
             order++;
-            sb.append(order + "  ").append(loadedCache.toString()).append("\n");
+            sb.append(String.format("%-4d",order)).append(loadedCache.toString()).append("\n");
         }
         return sb.toString();
     }
@@ -98,7 +100,7 @@ public class Database {
      */
     public void exportToFile(File results) throws IOException{
         try ( PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(results, true)))) {
-            pw.println("GCKod" + " " + "Latitude" + " " + "Longtitude" + " " + "Name");
+            pw.println("GCKod" + " " + "Latitude" + " " + "Longtitude" + " " + "FP" + " " + "Name");
             for (Cache loadedCache : loadedCaches) {
                 pw.println(loadedCache.filetoString());
             }
@@ -130,8 +132,6 @@ public class Database {
             for (Cache cache : loadedCaches) {
                 //out.writeInt(cache.getRegistracniCislo());
                 out.writeUTF(cache.getCode());
-                out.writeUTF(cache.getCoords().toString());
-                out.writeUTF(cache.nameToOneString());
             }
         }
     }
@@ -145,7 +145,7 @@ public class Database {
     public String readFromBinaryResults(File results) throws FileNotFoundException, IOException {
         StringBuilder sb = new StringBuilder();
         int nCaches;
-        String code = "", latitude = "", longtitude = "", name = "";
+        String code = "";
         int rank = 1;
         try ( DataInputStream in = new DataInputStream(new FileInputStream(results))) {
             boolean end = false;
@@ -155,11 +155,7 @@ public class Database {
                     nCaches = in.readInt();
                     for (int i = 0; i < nCaches; i++) {
                         code = in.readUTF();
-                        latitude = in.readUTF();
-                        longtitude = in.readUTF();
-                        name = in.readUTF();
-                        sb.append(String.format("%7s %10s %11s %30%n",
-                                rank, code, latitude, longtitude, name));
+                        sb.append(String.format("%7s %10s",rank, code));
                         rank++;
                     }
                     sb.append("\n");
@@ -177,10 +173,13 @@ public class Database {
         Comparator comp = new ComparatorCachesByCode();
         Collections.sort(loadedCaches, comp);
     }
+    /**
+     * sorting array by amount of favourite points
+     */
+    public void sortByFP() {       
+        Collections.sort(loadedCaches, Collections.reverseOrder());
+    }
     
-    /*public void sortByTime() {
-        Collections.sort(loadedCaches);
-    }*/
         /**
          * searching caches in area (rectangle)
          * @param a coordinates a
@@ -204,11 +203,13 @@ public class Database {
     public static void main(String[] args) throws IOException {
         Database database = new Database();
                 try{
-                    database.loadCaches(new File("./Data/Database_other1.txt"));
+                    database.loadCaches(new File("./Data/Database_copy.txt"));
                 } catch(Exception e){
                     System.out.println(e.getMessage());
                 }
                 //System.out.println(database.printLoaded());
+                database.sortByFP();
+                System.out.println(database.printLoaded());
                 //System.out.println((database.loadedCaches.get(2).getCode())).getLink();
                 //System.out.println((database.loadedCaches.get(2)).getLink());
                 
