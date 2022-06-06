@@ -28,7 +28,7 @@ Načítání vstupních dat z minimálně dvou souborů✅
 
 Zápis výstupních dat do souboru✅
 
-Možnosť práce s textovými a binárními soubory (alespoň někde)
+Možnosť práce s textovými a binárními soubory (alespoň někde)✅
 
 Ideálně využití reálných otevřených dat✅
 
@@ -52,6 +52,6 @@ Ošetření vstupů, aby chybné vstupy nezpůsobily pád programu - pomocí exi
 
 Vhodné ošetření povinně ošetřovaných výjimek✅
 
-Použití Vámi vybrané externí knihovny (audio, posílání emailů, práce s obrázkem, junit testování, jiné formáty uložení dat ...)
+Použití Vámi vybrané externí knihovny (audio, posílání emailů, práce s obrázkem, junit testování, jiné formáty uložení dat ...)✅
 
 Javadoc - každá třída a metoda musí mít javadoc popis, abyste mohli na závěr vygenerovat javadoc dokumentaci.✅
