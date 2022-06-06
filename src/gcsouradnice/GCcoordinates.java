@@ -167,6 +167,20 @@ public class GCcoordinates {
                         System.out.println(database.printLoaded());
                     }
                     break;
+                case 4:
+                    try{
+                    System.out.println("");
+                    System.out.println("Write name of your document (in ./Data/....)");
+                    source = sc.next();
+                    System.out.println(database.readFromBinaryResults(new File("./Data/"+source)));
+                    System.out.println("If you want to work with cache from document, enter its number(left column), otherwise enter 0");
+                    choicecache = sc.nextInt();
+                    database.loadCaches(new File("./Data/Database.txt"));
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                        System.out.println("something went wrong");
+                    }
+                    break;
                 default:
                     break;
             }
@@ -233,6 +247,7 @@ public class GCcoordinates {
         System.out.println("1-add new cache to database");
         System.out.println("2-find caches in rectangle");
         System.out.println("3-show all from file");
+        System.out.println("4-show codes from Binary file");
         System.out.println("0-end app");
         
     }

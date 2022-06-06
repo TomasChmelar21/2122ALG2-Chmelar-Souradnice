@@ -237,41 +237,7 @@ public class Database {
         return loadedCaches.get(code-1);
     }*/
     
-    public static void main(String[] args) throws IOException {
-        Database database = new Database();
-                try{
-                    database.loadCaches(new File("./Data/Database_copy.txt"));
-                } catch(Exception e){
-                    System.out.println(e.getMessage());
-                }
-                //System.out.println(database.printLoaded());
-                //database.sortByFP();
-                //System.out.println(database.readFromBinaryResults(new File("./Data/BinaryDB.txt")));
-                database.filterWatchlist();
-                System.out.println(database.printLoaded());
-                //System.out.println((database.loadedCaches.get(2).getCode())).getLink();
-                //System.out.println((database.loadedCaches.get(2)).getLink());
-                
-                /*Coordinates a = Coordinates.getCoordinatesfromString("50°46.176N", "015°01.110E");
-                Coordinates b = Coordinates.getCoordinatesfromString("50°42.945N", "015°11.365E");
-                ArrayList<Cache> array = cachesinArea(a,b);
-                System.out.println(printArray(array));*/
-                /*Cache cs = cachefromList(5, array);
-                System.out.println(cs.getLink());
-                String parent = System.getProperty("user.dir")+ File.separator +"data";
-                File dataDirectory = new File(parent);
-                String filename = "Database_other2.txt";
-                database.saveToBinaryFile(new File(dataDirectory, filename));
-                try{
-                    database.loadCaches(new File("./Data/Database_other2.txt"));
-                    System.out.println(printLoaded());
-                } catch(Exception e){
-                    System.out.println(e.getMessage());
-                }
-                database.sortByPrijmeni();
-                System.out.println(printLoaded());*/
-               
-    }
+
     
 }
 

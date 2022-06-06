@@ -8,6 +8,7 @@ package gcsouradnice.data;
 import utils.CacheInterface;
 import utils.CoordinatesMethods;
 import static utils.CoordinatesMethods.getCoordinatesfromString;
+import java.util.regex.Pattern;
 
 /**
  *
@@ -26,6 +27,9 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     private Found found;
     
     public Cache(String code, Found found, String latitude, String longtitude, int fp, String name){
+        if (!checkGCcode(code)) {
+            throw new IllegalArgumentException("wrong GCcode");
+        }
         this.code = code;
         this.name = name.replace("_", " ");
         this.coords = CoordinatesMethods.getCoordinatesfromString(latitude, longtitude);
@@ -119,12 +123,16 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     public String getLink(){
         return "www.geocaching.com/geocache/"+ code;
     }
-    
-    public boolean checkGCcode(String code){
+    /**
+     * check GC code is valid
+     * @param code
+     * @return true/false
+     */
+    public static boolean checkGCcode(String code){
         if (code.substring(0,2).equals("GC")) {
-            if (code.contains("[A-Z0-9]")) {
+            if (Pattern.matches("[A-Z0-9]+",code)) {
                 return true;
-            }
+            }       
         }
         return false;
     
@@ -146,21 +154,6 @@ public class Cache implements Comparable<Cache>, CacheInterface {
             }
 	}
 
-    public static void main(String[] args) {
-         String n1 = "50°08.240N";
-         String n2 = "014°42.504E";
-         //System.out.println(CoordinatesMethods.check('N', 50,08.240,'E', 14, 42.504));
-         Coordinates coords = getCoordinatesfromString(n1,n2);
-         System.out.println(Integer.toString(coords.getHourslat())+"."+Integer.toString((int)(1000*coords.getMinuteslat()))+","+Integer.toString(coords.getHourslong())+"."+Integer.toString((int)(1000*coords.getMinuteslong())));
-         /*System.out.println(coords.directionlat);
-         System.out.println(coords.directionlong);
-         System.out.println(coords.hourslat);
-         System.out.println(coords.minuteslat);
-         System.out.println(coords.hourslong);
-         System.out.println(coords.minuteslong);   
-         System.out.println(coords.toString());*/
-         //Coordinates New = new Coordinates('N', 50, 05.215, 'E', 14, 42.504);
-         //System.out.println(New.toString());
-    }  
+
     
 }

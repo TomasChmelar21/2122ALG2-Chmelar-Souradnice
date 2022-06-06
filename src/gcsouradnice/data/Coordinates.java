@@ -96,20 +96,5 @@ public class Coordinates {
     }
     
     
-    public static void main(String[] args) {
-         String n1 = "50°08.240N";
-         String n2 = "014°42.504E";
-         System.out.println(CoordinatesMethods.check('N', 50,08.240,'E', 14, 42.504));
-         /*Coordinates coords = getCoordinatesfromString(n1,n2);
-         System.out.println(coords.directionlat);
-         System.out.println(coords.directionlong);
-         System.out.println(coords.hourslat);
-         System.out.println(coords.minuteslat);
-         System.out.println(coords.hourslong);
-         System.out.println(coords.minuteslong);   
-         System.out.println(coords.toString());*/
-         Coordinates New = new Coordinates('N', 50, 05.215, 'E', 14, 42.504);
-         //System.out.println(New.toString());
-    }  
     
 }
