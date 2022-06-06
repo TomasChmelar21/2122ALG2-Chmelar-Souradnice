@@ -5,14 +5,26 @@
  */
 package gcsouradnice;
 
+import com.sun.jndi.toolkit.url.Uri;
+import eu.jacquet80.minigeo.MapWindow;
+import eu.jacquet80.minigeo.POI;
+import eu.jacquet80.minigeo.Point;
+import eu.jacquet80.minigeo.Segment;
 import gcsouradnice.data.Cache;
 import gcsouradnice.data.Coordinates;
 import utils.DataTime;
 import gcsouradnice.data.Database;
 import gcsouradnice.data.Found;
+import java.awt.Color;
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.Scanner;
+import java.util.regex.Matcher;
 import utils.CoordinatesMethods;
 
 /**
@@ -27,18 +39,17 @@ public class GCcoordinates {
     
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
-        int choice, choicecache = 0;
+        int choice, choicecache = 0, choiceothercache;
         String source, latcoordslu, latcoordsrd, longcoordslu, longcoordsrd;
+        double latfirstFormat,longfirstFormat,latsecondFormat,longsecondFormat; 
         Database database = new Database();
         Database inRectangle = new Database();
         Database actualDatabase = database;
         String parent = System.getProperty("user.dir")+ File.separator +"Data" + File.separator;
         
-        
-        
         System.out.println(DataTime.today());
         mainMenu();
-        
+        try{
         while((choice = sc.nextInt()) != 0){
             switch(choice){
                 case 1:
@@ -52,8 +63,8 @@ public class GCcoordinates {
                         */
                     System.out.println("Where you wanna write new cache (in ./Data/....)");
                     source = sc.next();
-                    System.out.println("Enter gradually: GCcode, Latitude NN°NN.NNNC, Longtitude NNN°NN.NNNC. amount of favourite points and Name");
-                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),sc.next(),sc.next(),sc.nextInt(),sc.next()));
+                    System.out.println("Enter gradually: GCcode, Found status, Latitude NN°NN.NNNC, Longtitude NNN°NN.NNNC. amount of favourite points and Name");
+                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),Found.valueOf(sc.next()),sc.next(),sc.next(),sc.nextInt(),sc.next()));
                     //database.addCacheToFile(new File("./Data/Database_other1.txt"), new Cache("GC9GYD3","50°45.502N","015°04.171E","Znám Liberec? IV."));
                     System.out.println("set up successfully");
                     }catch(Exception e){
@@ -130,6 +141,18 @@ public class GCcoordinates {
                                     database.sortByFP();
                                     System.out.println(database.printLoaded());
                                     break;
+                                case 3:
+                                    database.filterFound();
+                                    System.out.println(database.printLoaded());
+                                    break;
+                                case 4:
+                                    database.filternotFound();
+                                    System.out.println(database.printLoaded());
+                                    break;
+                                case 5:
+                                    database.filterWatchlist();
+                                    System.out.println(database.printLoaded());
+                                    break;
                                 default:
                                     break;
                             }
@@ -153,13 +176,24 @@ public class GCcoordinates {
                 choice = sc.nextInt();
                 switch(choice){
                 case 1:
-                    System.out.println((actualDatabase.getLoadedCaches().get(choicecache-1).getLink()));
+                    //System.out.println(("http://"+ actualDatabase.getLoadedCaches().get(choicecache-1).getLink()));
+                    String url_open ="https://"+ actualDatabase.getLoadedCaches().get(choicecache-1).getLink();
+                    java.awt.Desktop.getDesktop().browse(java.net.URI.create(url_open));
                     break;
                 case 2:
-                    System.out.println("still in preparing");
+                    
+                    String url_open_coords ="https://www.google.com/maps/@"+ actualDatabase.getLoadedCaches().get(choicecache-1).getCoordsinGoogleFormat()+",14z" ;
+                    java.awt.Desktop.getDesktop().browse(java.net.URI.create(url_open_coords));
                     break;
                 case 3:
-                    System.out.println("still in preparing");
+                    try{
+                        database.getLoadedCaches().get(choicecache-1).setFound(Found.Watchlist);
+                        System.out.println("set up successfully");
+                    }
+                    catch(Exception e){
+                        System.out.println(e.getMessage());
+                        System.out.println("something went wrong..."); 
+                    }
                     break;
                 case 4:
                     try{
@@ -171,12 +205,27 @@ public class GCcoordinates {
                         System.out.println("something went wrong..."); 
                     }
                     break;
+                case 5:
+                    System.out.println("choose another from database");
+                    choiceothercache = sc.nextInt();
+                    latfirstFormat =  Double.parseDouble(database.getLoadedCaches().get(choicecache-1).getLatFormat());
+                    longfirstFormat =  Double.parseDouble(database.getLoadedCaches().get(choicecache-1).getLongFormat());
+                    latsecondFormat =  Double.parseDouble(database.getLoadedCaches().get(choiceothercache-1).getLatFormat());
+                    longsecondFormat =  Double.parseDouble(database.getLoadedCaches().get(choiceothercache-1).getLongFormat());
+                    MapWindow window = new MapWindow();
+                    window.addSegment( new Segment( new Point(latfirstFormat, longfirstFormat), new Point(45, -1), Color.RED));
+                    window.setVisible(true);
+                    break;
                 default:
                     break;
                 }  
             } 
             choicecache = 0;
             mainMenu();
+        }
+        }catch(Exception e){
+            System.out.println("Wrong input");
+            System.out.println(e.getMessage());
         }
     }
     
@@ -189,22 +238,20 @@ public class GCcoordinates {
     }
     
     public static void cacheMenu(){
-        System.out.println("1-generate URL address");
+        System.out.println("1-show on internet");
         System.out.println("2-show coordinates on map");
         System.out.println("3-add to watchlist");
         System.out.println("4-set as Found");
+        System.out.println("5-distance to other from database");
         System.out.println("0-back to main menu");
     }
     
-    public static void chooseCacheMenu(){
-        System.out.println("1-generate URL address");
-        System.out.println("2-show coordinates on map");
-        System.out.println("3-add to watchlist");
-        System.out.println("0-back to main menu");
-    }
     public static void sortMenu(){
         System.out.println("1-sort by GCcode");
         System.out.println("2-sort by favorite points");
+        System.out.println("3-filter Found");
+        System.out.println("4-filter NotFound");
+        System.out.println("5-filter Watchlist");
         System.out.println("0-exit from sort menu");
     }
 }

@@ -49,7 +49,7 @@ public class Database {
         while((line = br.readLine()) != null) {           
             parts = line.split("[ ]");
             //String code, String latitude, String longtitude, String name
-            r = new Cache(parts[0], parts[1], parts[2], Integer.parseInt(parts[3]), parts[4]);
+            r = new Cache(parts[0], Found.valueOf(parts[1]), parts[2], parts[3], Integer.parseInt(parts[4]), parts[5]);
             loadedCaches.add(r);
         }
             
@@ -100,7 +100,7 @@ public class Database {
      */
     public void exportToFile(File results) throws IOException{
         try ( PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter(results, true)))) {
-            pw.println("GCKod" + " " + "Latitude" + " " + "Longtitude" + " " + "FP" + " " + "Name");
+            pw.println("GCKod" + " " + "State" + " " + "Latitude" + " " + "Longtitude" + " " + "FP" + " " + "Name");
             for (Cache loadedCache : loadedCaches) {
                 pw.println(loadedCache.filetoString());
             }
@@ -127,7 +127,6 @@ public class Database {
      */
     public void saveToBinaryFile(File results) throws FileNotFoundException, IOException {
         try ( DataOutputStream out = new DataOutputStream(new FileOutputStream(results, true))) {
-            int nLetters;
             out.writeInt(loadedCaches.size());
             for (Cache cache : loadedCaches) {
                 //out.writeInt(cache.getRegistracniCislo());
@@ -155,10 +154,10 @@ public class Database {
                     nCaches = in.readInt();
                     for (int i = 0; i < nCaches; i++) {
                         code = in.readUTF();
-                        sb.append(String.format("%7s %10s",rank, code));
+                        sb.append(String.format("%3s %10s",rank, code));
+                        sb.append("\n");
                         rank++;
                     }
-                    sb.append("\n");
                 } catch (EOFException e) {
                     end = true;
                 }
@@ -195,7 +194,45 @@ public class Database {
         }
         return caches;
     }
-     
+    /**
+     * Filter caches with Found status
+     */ 
+    public void filterFound(){
+        ArrayList<Cache> caches = new ArrayList<>();
+        for (Cache loadedCache : loadedCaches) {
+            if (loadedCache.getFound().toString().equals("Found")) {
+                caches.add(loadedCache);
+            }
+        } 
+       loadedCaches = caches;
+    
+    }
+    /**
+     * Filter caches with notFound status
+     */
+    public void filternotFound(){
+        ArrayList<Cache> caches = new ArrayList<>();
+        for (Cache loadedCache : loadedCaches) {
+            if (loadedCache.getFound().toString().equals("NotFound")) {
+                caches.add(loadedCache);
+            }
+        } 
+       loadedCaches = caches;
+    
+    }
+    /**
+     * Filter caches with Watchlist status
+     */
+    public void filterWatchlist(){
+        ArrayList<Cache> caches = new ArrayList<>();
+        for (Cache loadedCache : loadedCaches) {
+            if (loadedCache.getFound().toString().equals("Watchlist")) {
+                caches.add(loadedCache);
+            }
+        } 
+       loadedCaches = caches;
+    
+    }     
     /*public Cache cachefromList(int code){
         return loadedCaches.get(code-1);
     }*/
@@ -208,7 +245,9 @@ public class Database {
                     System.out.println(e.getMessage());
                 }
                 //System.out.println(database.printLoaded());
-                database.sortByFP();
+                //database.sortByFP();
+                //System.out.println(database.readFromBinaryResults(new File("./Data/BinaryDB.txt")));
+                database.filterWatchlist();
                 System.out.println(database.printLoaded());
                 //System.out.println((database.loadedCaches.get(2).getCode())).getLink();
                 //System.out.println((database.loadedCaches.get(2)).getLink());

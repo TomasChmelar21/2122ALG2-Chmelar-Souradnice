@@ -33,11 +33,37 @@ public class Coordinates {
     
     }
     
+    
+    
     public static Coordinates newCoordinates(char slat, int hourslat, double minuteslat, char slong, int hourslong, double minuteslong){
         if (CoordinatesMethods.check(slat, hourslat, minuteslat, slong, hourslong, minuteslong)) {
             return new Coordinates(slat, hourslat, minuteslat, slong, hourslong, minuteslong);
         }
-        throw new IllegalArgumentException("bad input exception");
+        throw new IllegalArgumentException("wrong input exception");
+    }
+
+    public char getDirectionlat() {
+        return directionlat;
+    }
+
+    public int getHourslat() {
+        return hourslat;
+    }
+
+    public double getMinuteslat() {
+        return minuteslat;
+    }
+
+    public char getDirectionlong() {
+        return directionlong;
+    }
+
+    public int getHourslong() {
+        return hourslong;
+    }
+
+    public double getMinuteslong() {
+        return minuteslong;
     }
     
     /**

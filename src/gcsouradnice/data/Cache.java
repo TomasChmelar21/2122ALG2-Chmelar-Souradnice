@@ -7,6 +7,7 @@ package gcsouradnice.data;
 
 import utils.CacheInterface;
 import utils.CoordinatesMethods;
+import static utils.CoordinatesMethods.getCoordinatesfromString;
 
 /**
  *
@@ -24,16 +25,16 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     private int fp;
     private Found found;
     
-    public Cache(String code, String latitude, String longtitude, int fp, String name){
+    public Cache(String code, Found found, String latitude, String longtitude, int fp, String name){
         this.code = code;
         this.name = name.replace("_", " ");
         this.coords = CoordinatesMethods.getCoordinatesfromString(latitude, longtitude);
         this.fp = fp;
-        this.found = Found.NotFound; //na začátku vždy ne
+        this.found = found;
     }
     
-    public Cache newCache(String code, String latitude, String longtitude, int fp, String name){
-        Cache cache = new Cache(code, latitude, longtitude, fp, name);
+    public Cache newCache(String code, Found found, String latitude, String longtitude, int fp, String name){
+        Cache cache = new Cache(code, found, latitude, longtitude, fp, name);
         return cache;
     }
 
@@ -44,6 +45,7 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     public Coordinates getCoords() {
         return coords;
     }
+    
 
     public String getName() {
         return name;
@@ -69,6 +71,22 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     }
     
     /**
+     * coordinates in google maps format
+     * @return coordinates in google maps format
+     */
+    public String getCoordsinGoogleFormat(){
+        return Integer.toString(coords.getHourslat())+"."+Integer.toString((int)(1000*coords.getMinuteslat()))+","+Integer.toString(coords.getHourslong())+"."+Integer.toString((int)(1000*coords.getMinuteslong()));
+    
+    }
+    
+    public String getLatFormat(){
+        return Integer.toString(coords.getHourslat())+"."+Integer.toString((int)(1000*coords.getMinuteslat()));
+    }
+    
+    public String getLongFormat(){
+        return Integer.toString(coords.getHourslong())+"."+Integer.toString((int)(1000*coords.getMinuteslong()));
+    }
+    /**
      * 
      * @return name with replace " " to "_"
      */
@@ -82,7 +100,7 @@ public class Cache implements Comparable<Cache>, CacheInterface {
      */    
     public String filetoString() {
         StringBuilder s = new StringBuilder();
-        return code + " " + coords.toString() + " " + fp + " " + nameToOneString();    
+        return code + " " + found + " " + coords.toString() + " " + fp + " " + nameToOneString();    
     }
     
     /**
@@ -92,7 +110,7 @@ public class Cache implements Comparable<Cache>, CacheInterface {
     @Override
     public String toString() {
         StringBuilder s = new StringBuilder();
-        return String.format("%-9s %-25s %-4d %-50s", code, coords.toString(), fp, name);
+        return String.format("%-9s %-10s %-25s %-4d %-50s", code, found, coords.toString(), fp, name);
     }
     /**
      * get link of cache
@@ -128,6 +146,21 @@ public class Cache implements Comparable<Cache>, CacheInterface {
             }
 	}
 
-    
+    public static void main(String[] args) {
+         String n1 = "50°08.240N";
+         String n2 = "014°42.504E";
+         //System.out.println(CoordinatesMethods.check('N', 50,08.240,'E', 14, 42.504));
+         Coordinates coords = getCoordinatesfromString(n1,n2);
+         System.out.println(Integer.toString(coords.getHourslat())+"."+Integer.toString((int)(1000*coords.getMinuteslat()))+","+Integer.toString(coords.getHourslong())+"."+Integer.toString((int)(1000*coords.getMinuteslong())));
+         /*System.out.println(coords.directionlat);
+         System.out.println(coords.directionlong);
+         System.out.println(coords.hourslat);
+         System.out.println(coords.minuteslat);
+         System.out.println(coords.hourslong);
+         System.out.println(coords.minuteslong);   
+         System.out.println(coords.toString());*/
+         //Coordinates New = new Coordinates('N', 50, 05.215, 'E', 14, 42.504);
+         //System.out.println(New.toString());
+    }  
     
 }
