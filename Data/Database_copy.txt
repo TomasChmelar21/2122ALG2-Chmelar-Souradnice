@@ -1,379 +1,379 @@
-GCCode  Latitude   Longtitude FP Name
-GC1W582 50°48.247N 014°42.504E 20 1938
-GC12PNQ 50°35.612N 015°13.391E 40 #_1_Alvarez_/_Rotštejn
-GC12PPX 50°35.944N 015°12.590E 12 #_2_Alvarez_/_Postojná
-GC13AT7 50°35.969N 015°10.013E 24 #_3_Alvarez_/_Opukové_skály
-GC13GX5 50°32.508N 015°11.220E 78 #_4_Alvarez_/_Ztracená_místa
-GC1BFN1 50°35.364N 015°08.591E 45 #_6_Alvarez_/_Kameny,_veze_a_cisla
-GCZYN5 50°29.754N 015°14.035E 10 #6_Reynevan_w_Czechach_/_Mag_Rupilius_Slezak
-GC10ET4 50°45.986N 015°26.674E 30 #7_Reynevan_w_Czechach_/_pechfogl
-GC28P5P 50°49.346N 015°32.986E 24 #8_Reynevan_w_Czechach_/_pan_z_Bibersteina
-GC29NV8 50°47.815N 014°42.952E 54 21_-_PRAVA_HORNI_KNOFLIKOVA_DIRKA
-GC29PB2 50°48.203N 014°41.725E 74 22_-_PRAVA_DOLNI_KNOFLIKOVA_DIRKA 
-GC29Q8J 50°48.040N 014°42.339E 12 23_-_LEVA_DOLNI_KNOFLIKOVA_DIRKA 
-GC29NYA 50°47.254N 014°43.828E 0 24_-_LEVA_HORNI_KNOFLIKOVA_DIRKA 
-GC233JA 50°41.419N 014°32.801E 5 4m
-GC1EC51 50°38.722N 014°28.262E 45 8._TRC_Fantazie
-GC1HKVY 50°38.992N 014°28.363E 11 Akciový_trh
-GC10VHF 50°40.987N 014°32.267E 1 Alenka
-GC1PJMN 50°47.913N 014°57.253E 5 Andelska_Hora
-GC2PADT 50°44.083N 015°10.457E 8 April
-GCW8B7 50°45.065N 015°05.448E 12 Autem_levne_a_rychle_/_By_Car_-_Low-cost_and_Fast
-GC20QHW 50°45.835N 015°02.802E 48 Autobusak_v_novem_kabate?
-GC12A3Q 50°39.446N 014°32.485E 2 Autodrom_Sosnova
-GC1HFDV 50°36.957N 015°11.361E 54 Az_ten_vlácek_zahouká_-_When_this_train_toot
-GC1PGCE 50°45.678N 014°56.789E 54 BALICEK_KARET
-GC1RK5H 50°45.920N 015°10.499E 44 Barevna_sklicka_/_Colored_pieces_of_glass
-GC1PP4H 50°40.151N 015°10.405E 12 Basen_za_Sifry
-GC2N4WY 50°45.951N 015°04.934E 13 Bila_pastelka
-GC2YV06 50°39.550N 014°59.456E 174 Blaschkeho_vila
-GC19JJH 50°44.740N 015°17.404E 45 Bobovka
-GC118KY 50°32.169N 015°14.399E 45 Borecke_skaly
-GC18X98 50°36.439N 015°02.195E 123 Borgský_trojuhelnik
-GCKBQ1 50°37.154N 014°39.343E 14 BotMC#4:_Suzaku,_Leader_of_the_Beasts
-GC1JWW0 50°39.815N 015°16.695E 1 Bridlice_/_Shiver 1_-_BONUS
-GC1JWW3 50°39.963N 015°16.500E 5 Bridlice_/_Shiver 4_-_Jirkov
-GC20E7D 50°42.995N 015°10.500E 55 BT_cache
-GC1RYB7 50°45.889N 015°19.250E 12 Bullerbyn
-GC1NBE5 50°32.491N 015°11.058E 78 Burgusuv_balkon
-GC2H4WQ 50°40.346N 015°08.195E 19 Cago_belo_geosilenci_#_1_#
-GC2H5D0 50°40.062N 015°08.894E 17 Cago_belo_geosilenci_#_3_#
-GC2H5D7 50°40.573N 015°07.332E 11 Cago_belo geosilenci_#_4_#
-GC2H5DR 50°41.539N 015°08.952E 33 Cago_belo_geosilenci_#_6_#
-GC163HA 50°47.373N 015°03.697E 14 Cache_hrdinu
-GC130XJ 50°43.824N 014°31.985E 85 Cache_pro_Krystofa_HzPaB_aneb_na_pivo_k_Berankum
-GCY4CM 50°32.482N 015°08.059E 15 Caspers_Rock
-GC2P2ZM 50°34.002N 014°41.210E 123 Cela
-GC10512 50°39.717N 014°30.015E 11 Certovy_schody_/_Devil's_stairs
-GC1KY0N 50°44.081N 015°10.917E 277 CESKA_MINCOVNA_/_THE_CZECH_MINT
-GC1130J 50°38.296N 014°34.236E 11 Ceske_luhy,_lesy,_haje
-GC2MFMM 50°44.288N 015°06.322E 78 cestou_do_pekla
-GC26T8V 50°44.198N 015°08.148E 33 Cimcarara_cim_cim_cim
-GCX0TJ 50°52.191N 015°09.925E 41 Cimrman_Cache
-GC1A11D 50°36.921N 015°21.738E 78 Cimrmanova_nejnižší_rozhledna_na_svete
-GC1JVA9 50°44.532N 015°20.192E 32 Cimrmanova_vyhlidka
-GC19Z6V 50°43.986N 015°11.858E 44 Cisarska_lipa
-GCX515 50°42.780N 015°06.236E 33 Cisarsky_kamen_-_Vesecky_okruh_#2
-GC2T28P 50°50.615N 015°04.043E 10 CITO_Eventova_cache
-GC2MQ7H 50°45.818N 014°32.405E 2 Crystalex
-GC2JX10 50°41.055N 014°32.368E 1 Cupitani_Ceskolipskem
-GC26QAX 50°48.154N 014°27.464E 80 CyberKill
-GC27X5F 50°47.565N 014°28.389E 90 CyberKill_III._aneb_Lost_in_Code
-GC29086 50°46.841N 014°28.180E 99 CyberKill_IV._aneb_Frog's_Trip
-GC2E648 50°41.571N 014°51.268E 40 CyberKill_V._aneb_Anytime_Anyplace
-GC2PPHP 50°43.648N 014°52.054E 32 CyberKill_VI._aneb_U
-GC3A5FJ 50°42.987N 015°09.775E 10 Čak_Norris
-GC2G85C 50°42.431N 015°10.632E 0 Delnicky_dum_Vrkoslavice
-GC267T0 50°45.631N 015°25.882E 1 DELTA
-GC1ZD9Q 50°45.774N 015°18.984E 5 Desenske_sklarny 
-GC20A9T 50°38.889N 014°28.567E 4 Desetinny_doplnek
-GC35R1Q 50°32.352N 015°02.401E 9 Detska_kes_Lomnice_nad_Popelkou
-GC189GQ 50°43.536N 015°09.947E 1 Divadlo_Jablonec_n.N.
-GC1TVKJ 50°36.103N 014°22.933E 45 Divej_se,_aneb_toulky_okolim_Usteka
-GC1HRTG 50°35.762N 015°09.623E 8 Dog´s_joy_I._-_Kynologicka
-GC1HRY8 50°35.464N 015°10.670E 3 Dog´s_joy_III._-_Cestou necestou
-GC1HT0E 50°35.819N 015°09.753E 8 Dog´s_joy_IV._-_Bozi voda
-GC1ND05 50°35.272N 015°10.345E 12 Dog´s_joy_VI._-_Struhy
-GC2JA4H 50°34.688N 015°09.633E 156 Dog´s_joy_II._-_Sadova
-GC1JMDB 50°36.027N 015°10.745E 1 Dog´s_joy_VII._-_Zrcadlova koza
-GC11Z16 50°32.983N 015°11.593E 12 Drací_skály
-GC29CH6 50°41.701N 015°26.293E 3 Dub_letni_-_Zatoulalo_se_mi_díte
-GC24GC5 50°41.338N 015°09.326E 1 Dub_v_Jestedske_ulici
-GC1KKQV 50°44.269N 015°09.854E 2 Dub_ve_Msene
-GC2WZTY 50°39.315N 014°32.106E 25 DZOSEROVA_STUPNOVITA_PYRAMIDA
-GC270CB 50°46.283N 015°05.866E 81 English_Puzzles
-GC14NTF 50°50.343N 014°35.190E 1 EOWYN
-GC2M2TE 50°35.688N 015°09.706E 23 Eventova
-GC1F3EG 50°43.839N 015°11.880E 8 Fiedlerova_vysina
-GC1B2BD 50°55.097N 015°04.744E 123 Frydlantska_prochazka_v.2
-GCXFXV 50°45.699N 014°54.874E 32 Fsichni_svati
-GC1078A 50°50.379N 014°34.788E 74 GALADRIEL
-GC1VHPH 50°48.423N 015°00.401E 65 Garfield
-GC214RN 50°48.094N 014°43.060E 11 Garry_hraje_golf
-GC38QKV 50°42.022N 015°14.342E 2 Geohashing
-GC1087N 50°39.771N 014°32.061E 12 GOL
-GC1MGDA 50°41.369N 014°32.335E 22 GOL-CH1
-GC11AJD 50°41.175N 014°56.828E 1 GOL-KL
-GC10ZBY 50°37.522N 014°31.737E 3 GOL-PP
-GC113TF 50°42.917N 014°50.963E 8 GOL-PP1
-GC118ET 50°42.148N 014°55.813E 9 GOL-PP2
-GC11AJV 50°40.381N 014°56.695E 40 GOL-PP3
-GC1YND4 50°41.936N 014°50.330E 66 Hamerský_rybník
-GC1XNR5 50°47.448N 015°03.174E 156 Harry_Potter_The_Sorcerer´s_Stone_-_night_cache
-GC1QXDK 50°47.314N 015°05.228E 250 Harry_Potter_cache
-GC1C8BP 50°44.218N 015°10.967E 1 Haskovy_vily
-GCVGJG 50°47.880N 014°48.839E 2 Havran
-GC1XRCM 50°34.396N 015°15.969E 3 Hedvika_a_Kilian
-GCMB8X 50°38.450N 014°30.925E 55 Hell`s_lizzard`n`frog_(Zahradky_u_Ceske_Lipy)
-GC116EB 50°34.049N 015°09.621E 1 Hlavatice
-GC1TBBK 50°48.326N 015°05.965E 151 Hledani_vyhledu_I
-GC1TFGX 50°49.002N 015°06.366E 111 Hledani_vyhledu_II
-GC1J6C4 50°39.268N 014°32.528E 1 Hledej_Snehurku
-GC1N4J4 50°49.492N 015°20.567E 12 Hnojovy_dum_-_Misthaus
-GC2MZKK 50°47.958N 015°07.921E 2 HOGO_FOGO_HOMOLKA
-GC11YQQ 50°30.866N 015°11.404E 3 Holenkove
-GC26FB4 50°35.042N 014°40.861E 44 Holoubek_bez_Popelky_/_Pigeons_without_Cinderella
-GCXRNC 50°46.761N 015°04.872E 6 Hra_Libercem/Game_of_Liberec
-GC2TE1M 50°47.130N 015°11.381E 8 Hrabetice
-GC1QZE5 50°51.452N 014°37.157E 99 Hradnikova_"33"_cache_/_Hradniks_Christ_the_summer
-GC1EA3E 50°48.214N 014°41.022E 10 Hradnikova_magicka_cache_/_Hradniks_magic_cache 
-GC1QZE6 50°44.605N 014°35.414E 32 Hradnikova_sloupska_cache_/_Hradniks_Sloups_Cache
-GCWTVZ 50°51.439N 014°34.931E 45 HRANICAR/RANGER
-GC2M06P 50°45.510N 015°26.053E 21 Hratky_s_certy_na_Certaku
-GC2VPQY 50°39.338N 015°13.018E 32 Hrebenovka_nad_Splzov
-GC23JQD 50°45.309N 015°03.371E 84 Hybaj_hledat_H!
-GC27AR1 50°49.689N 014°34.468E 11 hydrocefalus
-GCYJE9 50°44.859N 014°37.823E 98 Cha_-_cha_cache_/_Cha_-_Cha_keš
-GC2K0TZ 50°46.715N 014°30.003E 1 Chirp:Ceska_Lipa
-GC1JNWC 50°36.823N 015°11.190E 2 Chocholka
-GC15FGM 50°44.738N 014°32.761E 11 Chotovicky_vrch_-_hrob
-GC1XHPX 50°48.704N 014°58.145E 54 Chrastava
-GC1K5AV 50°48.996N 014°57.844E 65 Chrastavska_muzea_(CZ)(DE)
-GC2AA0P 50°31.861N 015°22.333E 81 ICM_Lomnice_nad_Popelkou
-GC26WX1 50°42.366N 015°11.880E 28 Indianska_cache
-GC135M8 50°50.309N 015°08.496E 7 Island
-GC11TQH 50°42.789N 015°11.081E 2 Jablonecka_kalendarova
-GC1ERJK 50°42.335N 015°10.489E 8 Jablonecke_kostely_#5_-_sv.Jana_Nepomuckeho
-GC1E3MB 50°43.357N 015°10.607E 66 Jablonecky_zamecek
-GC2007A 50°38.668N 014°30.482E 45 Jadran_v_Zahradkach
-GC15AEJ 50°45.200N 015°26.248E 5 Janova_skala
-GC2BKV2 50°44.944N 015°06.174E 4 Japonske_rebusy_#_1_-_SUDOKU
-GC2BKRV 50°46.980N 015°04.914E 45 Japonske_rebusy_#_2_-_NURIKABE
-GC2BM0K 50°43.529N 015°06.082E 44 Japonske_rebusy_#_3_-_KAKURO
-GC2BKVV 50°44.343N 015°06.865E 11 Japonske_rebusy_#_4_-_MASYU
-GC2E6E1 50°44.460N 015°08.193E 21 Japonske_rebusy_#_5_-_SIKAKU
-GC1K7FF 50°44.094N 014°36.015E 11 Jedinecna
-GC2GN51 50°45.111N 015°05.111E 78 Jednickova
-GC1E6J6 50°45.922N 015°03.582E 10 Jednoducha_carakova_-_Simple_barcoded
-GC1MM7J 50°49.887N 015°11.168E 44 Jeleni_skok
-GC14AQ7 50°43.696N 014°59.461E 78 Jested_-_Night_Edition
-GC1P7NT 50°43.904N 015°09.228E 92 Jizdarna/Hippodrome
-GC13NGH 50°47.368N 015°19.223E 11 Jizerky_-_Sousska_prehrada_760m.n.m.
-GC18VBT 50°52.598N 015°10.449E 132 Jizerske_vyhledy_-_Na_Hratkach
-GC1PN91 50°47.525N 015°06.863E 3 Jmeninova
-GC2XZV9 50°39.958N 014°33.770E 44 KALOKAGATHIA
-GC2PNTN 50°45.738N 015°03.210E 88 Kanalove_poklopy
-GC198GN 50°38.176N 015°12.811E 91 Kantorovy_varhany/Cantor’s_Organ
-GC1AFGR 50°44.181N 015°10.075E 1 Kaplicka_sv._Anny_ve_Msene
-GC1T236 50°43.649N 015°02.295E 23 Kaplicka_sv._Vavrince_v_Pilinkove
-GC142C6 50°32.183N 015°14.772E 22 Katova_tun
-GC27NJY 50°44.367N 015°10.991E 7 KDE_JSI
-GC274XA 50°35.464N 014°38.072E 44 Kde_se_ztraci_Machovo_jezero?
-GC1167N 50°38.054N 014°28.073E 13 Kdo_propadl_peklu.
-GC2RP6C 50°48.148N 015°07.927E 48 Klogertova_jedle
-GC10E3J 50°53.878N 015°00.048E 6 Kodesova_skala/_Kodes_rock
-GC1KKP5 50°43.590N 015°08.820E 74 Kominova_I_-_teziste/centroid
-GC1KKP6 50°43.829N 015°11.345E 11 Kominova_II_-_opsana_kruznice/circumcenter
-GC1KKP7 50°43.884N 015°09.011E 188 Kominova_III_-_prusecik_vysek/orthocenter
-GC1KKP8 50°44.307N 015°08.843E 123 Kominova_IV_-_vepsana_kruznice/incenter
-GC1PGFK 50°44.999N 015°09.555E 47 Kominova_V_-_Feuerbachova_kruznice
-GC1PP4G 50°42.807N 015°10.078E 241 Kominova_VI_-_Pripsane_kruznice/Excircles
-GC20ABT 50°31.788N 015°16.149E 11 Konec_Antimony
-GC22ETH 50°46.717N 015°02.381E 2 Konske_dostihy
-GCV95F 50°39.552N 015°09.828E 3 Kopanina
-GC2BJDV 50°42.979N 015°05.266E 4 Koralkova
-GCYHWB 50°44.607N 015°05.433E 8 Kostel_Nejsvetejsi_Trojice_-_Vratislavice
-GC1QNNT 50°46.493N 015°10.113E 4 Kostel_sv._Jana_Krtitele
-GC2DZTE 50°45.564N 015°00.557E 6 Kostel_sv._Vojtecha
-GCX2R3 50°43.686N 015°04.071E 14 Kota 462_-_Vesecky_okruh_#1
-GCXMWB 50°35.725N 015°15.691E 88 Kozakov_Sudoku_Cache
-GC3A3YH 50°43.250N 015°23.950E 11 Krakonos_a_lyznici_jdou_do_skoly
-GC2JZ25 50°43.494N 014°59.772E 13 KS#_05_Bonusova_Kes_Karoliny_Svetle_#01
-GC11QTV 50°41.020N 015°32.923E 11 La_Tenda_rossa
-GC2G2ZC 50°44.174N 015°00.764E 88 Lanovka_Horni_Hanychov_-_Skalka
-GC2K60W 50°48.956N 014°33.354E 47 Lasice-hranostaj
-GCYTGA 50°46.854N 015°05.256E 14 Les_zpiva
-GC2XG8M 50°43.289N 015°08.599E 32 Lesni_tramvaj_II_/_Waldbim_II
-GC29J8B 50°41.600N 015°23.543E 84 Letterbox_-_Tam_a_zase_zpatky
-GC1FC3E 50°40.842N 015°32.561E 32 Levinek
-GC16DP9 50°46.105N 015°03.981E 41 Liberec_-_Liebiegovo_mestecko
-GC35N1P 50°46.240N 014°57.450E 33 Liberecka_jesterka_–_leva_predni_noha
-GC35N1T 50°45.664N 014°57.134E 74 Liberecka_jesterka_-_leva_zadni_noha
-GC35N1X 50°45.314N 014°58.139E 41 Liberecka_jesterka_-_oko
-GC35N1G 50°46.000N 014°58.080E 21 Liberecka_jesterka_-_prava_predni_noha
-GC35N1C 50°45.770N 014°57.860E 66 Liberecka_jesterka_-_prava_zadni_noha
-GCYZKY 50°46.071N 015°03.584E 74 Liberecka_radnice_/_Liberec_Town_hall
-GC10ZTJ 50°45.707N 015°03.403E 21 Liberecka_Slunecní_Cache_/_Liberec_Sunny_Cache
-GC35FY2 50°46.043N 015°01.572E 1 Liberecka_zdravotnicka
-GCZPF6 50°46.551N 015°02.869E 21 Liberecke_tramvaje
-GC1Z9JM 50°33.300N 015°24.978E 11 Libstatsky_kamenny_most
-GC1F20P 50°46.656N 015°04.848E 33 Lidove_Sady_Liberec_sifrovane_/_Popular_Orchards
-GC340C6 50°38.631N 014°55.367E 84 LOKOMOBILA
-GC1047E 50°31.220N 015°21.914E 91 Lomnice_nad_Popelkou
-GC213MG 50°44.690N 015°07.709E 91 Lukasovske_opevneni
-GC16J3G 50°50.296N 014°32.900E 92 Lužické_sedmistovky/Lausitzer_Siebenhunderter
-GC28833 50°42.678N 015°09.575E 11 Lyzarsky_vlek_Dobra_Voda
-GC2GR3F 50°29.654N 014°34.938E 113 Macha_v_Raji
-GC286G7 50°40.854N 014°49.536E 21 MALY_JELENI_VRCH
-GC280G6 50°48.314N 014°29.482E 47 Marsal_Ney
-GC2RHZJ 50°43.520N 015°07.605E 45 Matematicka_olympiada
-GC1W21R 50°46.995N 015°07.004E 32 Mesni_skala
-GC1BH2H 50°43.423N 015°10.301E 21 Mesto_skla_a_bizuterie
-GC1F3EE 50°43.848N 015°11.501E 74 Mestske_lazne_Paseky
-GC1RV1B 50°46.935N 015°07.463E 41 Meteorologicka
-GC157PD 50°35.244N 015°09.035E 21 Mezi_mosty
-GCX3X2 50°53.202N 015°11.382E 54 Milý_ostrov
-GC2M9AP 50°44.718N 015°10.330E 68 Modra_je_dobra
-GCVQA2 50°43.788N 015°05.827E 10 Mojzisuv_Pramen_-_Vesecky_okruh_#3
-GC31584 50°36.404N 014°23.223E 50 Morove_rany_II.
-GC25MYE 50°39.957N 015°09.893E 60 Mozkovrtka_Skalni
-GC1RWGK 50°46.639N 015°06.700E 2 Mravenci_vyhlidka/Formic_vista
-GC36TQZ 50°42.523N 015°09.761E 0 Mrazik
-GC12A3Z 50°35.371N 015°09.418E 2 Muzeum_Ceského_ráje
-GC1D11R 50°40.930N 014°51.700E 54 My_Ukrajinci_remizy_neznajem
-GC35C3H 50°46.234N 014°44.905E 21 Na_Knoflik,_kacere,_na_Knoflik...
-GCNAZ0 50°49.288N 014°38.453E 0 Nadeje_/_Der_Staudamm_Nadeje
-GC1DVEP 50°47.241N 014°39.419E 51 Nadeje_umira_posledni
-GC1TYE9 50°35.256N 015°09.404E 0 Namesti_Ceskeho_raje
-GC2MVE3 50°44.372N 014°58.592E 10 Naucna_stezka_"Terasy_Jestedu"
-GC1ED7E 50°32.021N 015°15.715E 22 NEJLEPSI_SESTRY_SVETA
-GC1HFQV 50°42.445N 015°27.483E 10 Nemelem_nemelem
-GC1ZENN 50°45.101N 015°09.798E 0 Nemy_Bobes
-GC25FY8 50°46.595N 015°04.670E 22 Neptunova_kasna_Liberec_/_Neptune_Fountain
-GC13C06 50°44.814N 014°28.775E 54 Neznalkova_cesta_do_Slunecniho_mesta
-GC1HWTG 50°33.403N 015°19.438E 0 No_jo,_ale_kolik_je_X?
-GC1WVHT 50°38.125N 015°13.757E 12 Nocni_dobrodruzstvi
-GC1MQAW 50°43.734N 015°11.456E 241 Nocni_upiri_Wherigo_-_cwg_smenarna
-GC1EN3D 50°43.441N 015°12.605E 12 Novoveska_fotbalova
-GC26DB4 50°44.377N 015°09.506E 0 Novy_park
-GC12DP7 50°41.337N 014°40.246E 32 NUZE,_WATSONE?/SO,_WATSON?
-GC1QG0V 50°45.769N 015°10.670E 55 O_Budulinkovi
-GC11ANQ 50°46.325N 014°47.402E 2 Obelix´s_trip
-GC182WW 50°45.074N 015°06.401E 54 Obet_nejvyssi_-_The_highest_victim
-GC18DD9 50°46.047N 015°03.707E 10 Oblastni_galerie_v_Liberci
-GC159KY 50°30.684N 015°12.058E 9 Ocima_datla
-GC159VK 50°32.007N 015°14.362E 9 Ocima_stareho_sokola
-GC2N9PN 50°43.978N 015°10.539E 8 OKO_BERE
-GC1KZHK 50°49.843N 015°09.055E 45 Osamele_jizerske_pomnicky_3_-_Porscheho_smrt
-GC1KZJB 50°49.782N 015°11.133E 65 Osamele_jizerske_pomnicky_4_-_Kdo_jinemu_jamu_kopa
-GC1BVKP 50°45.429N 014°31.635E 1 Otaznik
-GC2VTKP 50°47.088N 014°59.091E 12 Pamatne_stromy_Liberce
-GC2Y3CF 50°35.136N 014°24.565E 35 Pamatne_stromy_ve_Skalce
-GC2M3BA 50°46.547N 015°03.963E 84 pamatnik_/_memorial
-GC2TK4D 50°34.991N 015°09.118E 65 Pamatny_buk
-GC2A6YK 50°43.802N 015°05.844E 41 Pamatny_dub_na_Orli_louce
-GC1PXG1 50°35.582N 014°32.798E 11 Pan_Filuta_se_zlobí.....
-GC1E1QY 50°41.453N 015°23.842E 0 Pan_prstenu_#_1_-_Kraj
-GC1E65R 50°41.127N 015°26.633E 2 Pan_prstenu_#_2_-_Fangorn
-GC1E65W 50°46.316N 015°22.639E 3 Pan_prstenu_#_3_-_Odula
-GC1E660 50°44.818N 015°32.024E 4 Pan_prstenu_#_4_-_Hora osudu
-GC2MJ5V 50°40.777N 015°13.444E 1 Panoramata
-GC1JH4B 50°38.655N 014°35.157E 45 Pat_a_Mat
-GC1ZF1R 50°38.411N 014°30.606E 0 Pavlik
-GC1TT7D 50°43.582N 015°18.947E 32 Pavlinka_aneb_konec_textilu_v_Cechach
-GC16965 50°48.590N 015°04.507E 54 Pavucinka
-GC2W50Q 50°44.277N 015°10.261E 21 Pepicek_jde_do_skolky
-GC1R7NX 50°46.297N 015°25.497E 0 Pernikova_chaloupka
-GC1W2RY 50°48.416N 014°28.019E 54 Pocitani_ovecek
-GC1FJBK 50°45.352N 015°13.930E 74 Pocta_Jane_Austenove_-_Tribute_to_Jane_Austen
-GC2QAXB 50°24.270N 014°18.157E 32 Podripsko_literarni_#1:_Broucci
-GC35DHJ 50°35.328N 015°08.331E 29 Podzimni_malovani/The_Autumn_painting
-GC2NTT7 50°58.286N 015°01.269E 27 Pohanske_kameny
-GC1810X 50°46.235N 015°26.042E 44 Poklad_piratu_/_Pirate´s_treasure
-GC26FB3 50°34.547N 014°41.600E 100 Popelka_bez_holoubka_/_Cinderella_without_the_pige
-GC32456 50°35.787N 014°24.827E 85 POSLEDNI_KRIZOVA_CESTA
-GC2H9YG 50°45.885N 015°03.149E 12 Povolebni...
-GC2QBXG 50°43.973N 015°05.774E 32 Pozorovatelna/Loophole
-GCVQAW 50°45.469N 015°05.341E 41 Práce_pro_Columba_/_Task_for_Columbo
-GC1T7JA 50°42.144N 015°12.842E 48 Pramen_Zernovniku
-GC137NY 50°41.716N 014°39.672E 19 Pramen_Trí_svatých
-GC133XJ 50°43.544N 015°13.634E 18 Prameny_Nisy_#1
-GC19GYE 50°44.266N 015°10.553E 39 Prehradni_zahada
-GC2NK1T 50°45.704N 015°06.984E 27 Princezna_z_Harcova
-GC2CXJ2 50°45.227N 015°02.736E 45 Pruhovane_prase_?
-GC1HFQF 50°45.389N 015°04.928E 32 PSZ_-_1
-GC2RRK0 50°36.167N 015°18.073E 12 Pub_Tour_Bonus
-GC2RA6A 50°40.291N 014°33.224E 0 Pulnocni_projektant
-GC269EA 50°42.232N 015°25.440E 11 Rakosnicek_aneb_ucime_se_hrát_Wherigo
-GC19XBP 50°31.599N 015°04.795E 28 Rasovina_2007
-GC1KCKH 50°32.674N 014°32.185E 17 Receptova_cache
-GC27JBZ 50°38.225N 014°26.404E 2 Retezovka_-_Catenary
-GC1YB78 50°45.027N 015°03.517E 3 Rochlice_-_kostel
-GC17JBE 50°32.083N 015°16.492E 14 Rovenská
-GC19VK6 50°36.475N 014°33.882E 4 Rozec
-GC210GB 50°39.594N 015°23.630E 21 Rozhledna_U_Borovice
-GC2P455 50°43.457N 015°09.361E 11 rychla_smrt
-GC2W5EW 50°43.089N 015°04.323E 29 RYCHLOSTNICE_PRAHA_–_LIBEREC_(NIGHT EDITION)
-GC18B42 50°43.019N 015°14.365E 14 Sankarska_draha_/_luge´s_track_Smrzovka
-GC19EPA 50°38.916N 015°15.562E 32 Sibenicni_vrch/Gallows_hill
-GC1T9V1 50°40.447N 015°08.862E 44 Sifrovaci_hricky_II.
-GC2HV72 50°42.536N 015°09.579E 45 Silvestrovska
-GC286RN 50°54.200N 015°12.644E 74 Singltrek_II.
-GC2XAXX 50°40.902N 014°31.637E 65 Sipkova
-GC1JPF2 50°35.505N 014°51.144E 21 Skalni_hradek_Slapka
-GC1W28W 50°46.039N 015°25.938E 35 Skoky_na_lyzich_/_Ski_jumping
-GCYGTW 50°44.810N 015°06.069E 84 Slunicko_-_Vratislavice
-GC24X5J 50°41.523N 014°53.538E 35 SMENARNA_-_EXCHANGE_–_CWG
-GC238E7 50°45.579N 015°03.457E 74 Smrt
-GC1908M 50°46.279N 015°04.132E 31 Snad_temna_naruc_pekla?
-GC269PJ 50°40.813N 015°24.431E 0 Snehurka
-GC1QC8F 50°37.318N 015°08.616E 21 Sneni_/_Dreamery 
-GC2CF0P 50°32.371N 014°42.620E 1 Snilek
-GC21MX7 50°46.172N 015°03.308E 3 Sokolovsky_tunel
-GC18QW6 50°36.849N 014°32.579E 3 Soudce_a_zlocinec
-GC2ADT8 50°45.021N 015°11.107E 44 Spadla_z_oblakov
-GC14JP3 50°47.433N 014°58.450E 88 Srdce
-GC2GPGW 50°47.111N 015°12.534E 45 Srdickova
-GC1HZ5N 50°42.986N 015°08.931E 99 Srnci_dul
-GC2E8RC 50°49.607N 015°04.286E 154 STAND_UP
-GC11GNW 50°37.426N 015°26.495E 14 Starousek
-GCWGDT 50°34.145N 014°35.302E 32 Starý_Berštejn_/_Old_Berstein
-GC26JX2 50°41.596N 014°32.420E 45 Straznik
-GC182VD 50°41.467N 014°32.057E 74 Strelnice
-GC2JKW8 50°41.175N 014°32.371E 32 Stroboskop
-GC1092H 50°45.015N 015°09.868E 85 Studna/Well,_ver._2
-GC1J6J1 50°44.217N 014°59.315E 54 sudoku_cache
-GC24X2F 50°36.468N 014°34.569E 11 Sv._Jan_Nepomucky_/_EN
-GCYMG7 50°43.965N 015°05.948E 32 sv._Vaclav_-_Vratislavice
-GCVQA7 50°43.810N 015°04.840E 5 Taich_-_Vesecky_okruh_#4
-GC2HZN7 50°42.519N 015°08.116E 1 Tajemstvi_archivu_dr._Watsona
-GC28V54 50°41.250N 014°53.383E 87 TAJEMSTVI_KOCICICH_SKAL
-GC2GTN3 50°35.070N 015°09.556E 0 Tajemstvi_pana_Dr._/_Secret_of_Mr._Dr.
-GC2H1D5 50°47.591N 014°43.785E 1 Tajna_vojenska_zakladna_v_Hermanicich_v_Podjestedi
-GC2PQ2N 50°43.151N 015°13.405E 65 Tak_anebo_tak
-GC34Q51 50°50.572N 015°20.319E 74 Tam_kde_se_ztraci_reka
-GC1MF58 50°44.151N 015°10.576E 1 The_Sculptures_Of_Jablonec_nad_Nisou
-GC1N1TA 50°44.280N 015°09.687E 0 Treninkove_centrum_Mseno
-GC2JX12 50°35.495N 014°38.423E 111 Tri_ukoly_pro_tri_prince
-GC14MWK 50°43.546N 014°35.945E 32 Trináctá_komnata_-_KHzPaB
-GC1JMGB 50°30.683N 015°13.287E 55 Troskovicke_lipy
-GC11764 50°46.407N 015°04.578E 94 TUL
-GC1CZNF 50°33.854N 015°28.881E 12 Tulackuv_statek
-GC1Q3BD 50°44.342N 014°33.845E 32 Tvrznik
-GC2N77V 50°45.232N 015°10.461E 84 Ty_lesniku,_kouzelniku,_ty_jsi_lesa_pan!
-GC296EW 50°37.056N 015°20.379E 54 U_Kremilka_a_mozna_i_Vochomurky_:o)
-GCXWAZ 50°47.653N 015°04.884E 21 U_Obrazku
-GC2RT1M 50°45.276N 015°02.463E 41 Uzka_kes
-GC1128T 50°33.745N 015°09.775E 32 Valdstejn
-GC1JRWV 50°45.134N 015°08.700E 84 Vanocni_cache
-GC2GB27 50°38.936N 014°29.832E 32 Vecerni_vyrazeni
-GC1PKXZ 50°45.820N 015°03.347E 1 Vesela_Zed_-_Cheerful_Wall
-GC1KV7H 50°48.989N 015°07.339E 0 Vetrna_Lhota
-GC15GAA 50°42.705N 014°31.078E 3 Vidim_Sever
-GC20E7G 50°43.586N 015°10.600E 54 vila_Steinberg
-GCXYRW 50°46.100N 015°04.372E 9 Vodní_dílo_Harcov_/_Harcov_Dam
-GC1WTRF 50°46.499N 015°24.596E 4 Vodnik_Pantoflicek
-GC1ZDEQ 50°44.139N 015°07.921E 10 VogelStein
-GCYMG8 50°43.960N 015°06.612E 0 Vratislavicka_kyselka
-GC12JRP 50°44.416N 015°05.416E 1 Vratislavická_nádražní
-GC2D3XJ 50°45.098N 015°05.702E 45 Vratislavicky_mustek
-GC2Z15A 50°46.265N 015°03.664E 10 VTA_#10_-_Telefonni_budka_-_Prvni_bonus
-GC2ZMA0 50°35.221N 015°08.371E 1 VTA_#30_-_Telefonni_budka_-_Treti_bonus
-GC1ZEXJ 50°45.040N 015°06.563E 97 Vyhlidka_pro_Columba_/_Lookout_for_Columbo
-GC332MF 50°32.163N 015°14.619E 87 Vyhlidka_Svatopluka_Cecha
-GC3A99M 50°40.997N 014°32.945E 12 Vylety_do_historie_Ceske_Lipy
-GC1D341 50°41.217N 015°26.201E 0 Vysoke_nad_Jizerou
-GCKJTC 50°32.112N 015°08.601E 54 Vyzva_/_Challenge
-GC2ZBW5 50°45.593N 015°01.926E 87 Vzpominka_na_smetak_-_minimulti
-GCVFN1 50°44.873N 015°05.374E 44 Zachraneny_pivovar_-_Vratislavice
-GC2PZPD 50°37.991N 014°25.301E 1 Zamek
-GC2QWPE 50°43.115N 014°32.447E 85 Zanikly_hrbitov 
-GC105TR 50°40.919N 014°29.845E 86 zapomenuty_pomnik_II.
-GC10XRA 50°39.868N 014°30.444E 12 zapomenuty_pomnik_III.
-GC2NGFX 50°46.146N 015°03.529E 89 Zarovka_/_LIGHT_BULB
-GC2CN33 50°41.758N 014°48.065E 86 zasilhej_si
-GC1M1NJ 50°46.478N 015°03.595E 64 Zastavka_/_Bus_stop
-GC21HDN 50°49.065N 014°34.805E 61 ZIMNI_VECER
-GC233JE 50°41.435N 014°32.187E 63 Zmaten_v_16-ti
-GC11FDD 50°36.321N 014°26.344E 69 Ztraceny_hradek_u_Hvezdy
-GC1A6FE 50°46.893N 015°03.712E 21 Zvuk_slunecnich_hodin
+GCCode  state    Latitude   Longtitude  FP Name
+GC1W582 NotFound 50°48.247N 014°42.504E 20 1938
+GC12PNQ NotFound 50°35.612N 015°13.391E 40 #_1_Alvarez_/_Rotštejn
+GC12PPX NotFound 50°35.944N 015°12.590E 12 #_2_Alvarez_/_Postojná
+GC13AT7 Watchlist 50°35.969N 015°10.013E 24 #_3_Alvarez_/_Opukové_skály
+GC13GX5 NotFound 50°32.508N 015°11.220E 78 #_4_Alvarez_/_Ztracená_místa
+GC1BFN1 NotFound 50°35.364N 015°08.591E 45 #_6_Alvarez_/_Kameny,_veze_a_cisla
+GCZYN5 NotFound 50°29.754N 015°14.035E 10 #6_Reynevan_w_Czechach_/_Mag_Rupilius_Slezak
+GC10ET4 NotFound 50°45.986N 015°26.674E 30 #7_Reynevan_w_Czechach_/_pechfogl
+GC28P5P NotFound 50°49.346N 015°32.986E 24 #8_Reynevan_w_Czechach_/_pan_z_Bibersteina
+GC29NV8 NotFound 50°47.815N 014°42.952E 54 21_-_PRAVA_HORNI_KNOFLIKOVA_DIRKA
+GC29PB2 NotFound 50°48.203N 014°41.725E 74 22_-_PRAVA_DOLNI_KNOFLIKOVA_DIRKA 
+GC29Q8J NotFound 50°48.040N 014°42.339E 12 23_-_LEVA_DOLNI_KNOFLIKOVA_DIRKA 
+GC29NYA NotFound 50°47.254N 014°43.828E 0 24_-_LEVA_HORNI_KNOFLIKOVA_DIRKA 
+GC233JA NotFound 50°41.419N 014°32.801E 5 4m
+GC1EC51 NotFound 50°38.722N 014°28.262E 45 8._TRC_Fantazie
+GC1HKVY NotFound 50°38.992N 014°28.363E 11 Akciový_trh
+GC10VHF Watchlist 50°40.987N 014°32.267E 1 Alenka
+GC1PJMN Watchlist 50°47.913N 014°57.253E 5 Andelska_Hora
+GC2PADT NotFound 50°44.083N 015°10.457E 8 April
+GCW8B7 NotFound 50°45.065N 015°05.448E 12 Autem_levne_a_rychle_/_By_Car_-_Low-cost_and_Fast
+GC20QHW NotFound 50°45.835N 015°02.802E 48 Autobusak_v_novem_kabate?
+GC12A3Q NotFound 50°39.446N 014°32.485E 2 Autodrom_Sosnova
+GC1HFDV NotFound 50°36.957N 015°11.361E 54 Az_ten_vlácek_zahouká_-_When_this_train_toot
+GC1PGCE NotFound 50°45.678N 014°56.789E 54 BALICEK_KARET
+GC1RK5H NotFound 50°45.920N 015°10.499E 44 Barevna_sklicka_/_Colored_pieces_of_glass
+GC1PP4H NotFound 50°40.151N 015°10.405E 12 Basen_za_Sifry
+GC2N4WY NotFound 50°45.951N 015°04.934E 13 Bila_pastelka
+GC2YV06 NotFound 50°39.550N 014°59.456E 174 Blaschkeho_vila
+GC19JJH NotFound 50°44.740N 015°17.404E 45 Bobovka
+GC118KY NotFound 50°32.169N 015°14.399E 45 Borecke_skaly
+GC18X98 NotFound 50°36.439N 015°02.195E 123 Borgský_trojuhelnik
+GCKBQ1 NotFound 50°37.154N 014°39.343E 14 BotMC#4:_Suzaku,_Leader_of_the_Beasts
+GC1JWW0 NotFound 50°39.815N 015°16.695E 1 Bridlice_/_Shiver 1_-_BONUS
+GC1JWW3 NotFound 50°39.963N 015°16.500E 5 Bridlice_/_Shiver 4_-_Jirkov
+GC20E7D NotFound 50°42.995N 015°10.500E 55 BT_cache
+GC1RYB7 NotFound 50°45.889N 015°19.250E 12 Bullerbyn
+GC1NBE5 NotFound 50°32.491N 015°11.058E 78 Burgusuv_balkon
+GC2H4WQ NotFound 50°40.346N 015°08.195E 19 Cago_belo_geosilenci_#_1_#
+GC2H5D0 NotFound 50°40.062N 015°08.894E 17 Cago_belo_geosilenci_#_3_#
+GC2H5D7 NotFound 50°40.573N 015°07.332E 11 Cago_belo geosilenci_#_4_#
+GC2H5DR NotFound 50°41.539N 015°08.952E 33 Cago_belo_geosilenci_#_6_#
+GC163HA NotFound 50°47.373N 015°03.697E 14 Cache_hrdinu
+GC130XJ NotFound 50°43.824N 014°31.985E 85 Cache_pro_Krystofa_HzPaB_aneb_na_pivo_k_Berankum
+GCY4CM NotFound 50°32.482N 015°08.059E 15 Caspers_Rock
+GC2P2ZM NotFound 50°34.002N 014°41.210E 123 Cela
+GC10512 NotFound 50°39.717N 014°30.015E 11 Certovy_schody_/_Devil's_stairs
+GC1KY0N NotFound 50°44.081N 015°10.917E 277 CESKA_MINCOVNA_/_THE_CZECH_MINT
+GC1130J NotFound 50°38.296N 014°34.236E 11 Ceske_luhy,_lesy,_haje
+GC2MFMM NotFound 50°44.288N 015°06.322E 78 cestou_do_pekla
+GC26T8V NotFound 50°44.198N 015°08.148E 33 Cimcarara_cim_cim_cim
+GCX0TJ NotFound 50°52.191N 015°09.925E 41 Cimrman_Cache
+GC1A11D NotFound 50°36.921N 015°21.738E 78 Cimrmanova_nejnižší_rozhledna_na_svete
+GC1JVA9 NotFound 50°44.532N 015°20.192E 32 Cimrmanova_vyhlidka
+GC19Z6V NotFound 50°43.986N 015°11.858E 44 Cisarska_lipa
+GCX515 NotFound 50°42.780N 015°06.236E 33 Cisarsky_kamen_-_Vesecky_okruh_#2
+GC2T28P NotFound 50°50.615N 015°04.043E 10 CITO_Eventova_cache
+GC2MQ7H NotFound 50°45.818N 014°32.405E 2 Crystalex
+GC2JX10 NotFound 50°41.055N 014°32.368E 1 Cupitani_Ceskolipskem
+GC26QAX NotFound 50°48.154N 014°27.464E 80 CyberKill
+GC27X5F NotFound 50°47.565N 014°28.389E 90 CyberKill_III._aneb_Lost_in_Code
+GC29086 NotFound 50°46.841N 014°28.180E 99 CyberKill_IV._aneb_Frog's_Trip
+GC2E648 NotFound 50°41.571N 014°51.268E 40 CyberKill_V._aneb_Anytime_Anyplace
+GC2PPHP NotFound 50°43.648N 014°52.054E 32 CyberKill_VI._aneb_U
+GC3A5FJ NotFound 50°42.987N 015°09.775E 10 Čak_Norris
+GC2G85C NotFound 50°42.431N 015°10.632E 0 Delnicky_dum_Vrkoslavice
+GC267T0 NotFound 50°45.631N 015°25.882E 1 DELTA
+GC1ZD9Q NotFound 50°45.774N 015°18.984E 5 Desenske_sklarny 
+GC20A9T NotFound 50°38.889N 014°28.567E 4 Desetinny_doplnek
+GC35R1Q NotFound 50°32.352N 015°02.401E 9 Detska_kes_Lomnice_nad_Popelkou
+GC189GQ NotFound 50°43.536N 015°09.947E 1 Divadlo_Jablonec_n.N.
+GC1TVKJ NotFound 50°36.103N 014°22.933E 45 Divej_se,_aneb_toulky_okolim_Usteka
+GC1HRTG NotFound 50°35.762N 015°09.623E 8 Dog´s_joy_I._-_Kynologicka
+GC1HRY8 NotFound 50°35.464N 015°10.670E 3 Dog´s_joy_III._-_Cestou necestou
+GC1HT0E NotFound 50°35.819N 015°09.753E 8 Dog´s_joy_IV._-_Bozi voda
+GC1ND05 NotFound 50°35.272N 015°10.345E 12 Dog´s_joy_VI._-_Struhy
+GC2JA4H NotFound 50°34.688N 015°09.633E 156 Dog´s_joy_II._-_Sadova
+GC1JMDB NotFound 50°36.027N 015°10.745E 1 Dog´s_joy_VII._-_Zrcadlova koza
+GC11Z16 NotFound 50°32.983N 015°11.593E 12 Drací_skály
+GC29CH6 NotFound 50°41.701N 015°26.293E 3 Dub_letni_-_Zatoulalo_se_mi_díte
+GC24GC5 NotFound 50°41.338N 015°09.326E 1 Dub_v_Jestedske_ulici
+GC1KKQV NotFound 50°44.269N 015°09.854E 2 Dub_ve_Msene
+GC2WZTY NotFound 50°39.315N 014°32.106E 25 DZOSEROVA_STUPNOVITA_PYRAMIDA
+GC270CB NotFound 50°46.283N 015°05.866E 81 English_Puzzles
+GC14NTF NotFound 50°50.343N 014°35.190E 1 EOWYN
+GC2M2TE NotFound 50°35.688N 015°09.706E 23 Eventova
+GC1F3EG NotFound 50°43.839N 015°11.880E 8 Fiedlerova_vysina
+GC1B2BD NotFound 50°55.097N 015°04.744E 123 Frydlantska_prochazka_v.2
+GCXFXV NotFound 50°45.699N 014°54.874E 32 Fsichni_svati
+GC1078A NotFound 50°50.379N 014°34.788E 74 GALADRIEL
+GC1VHPH NotFound 50°48.423N 015°00.401E 65 Garfield
+GC214RN NotFound 50°48.094N 014°43.060E 11 Garry_hraje_golf
+GC38QKV NotFound 50°42.022N 015°14.342E 2 Geohashing
+GC1087N NotFound 50°39.771N 014°32.061E 12 GOL
+GC1MGDA NotFound 50°41.369N 014°32.335E 22 GOL-CH1
+GC11AJD NotFound 50°41.175N 014°56.828E 1 GOL-KL
+GC10ZBY NotFound 50°37.522N 014°31.737E 3 GOL-PP
+GC113TF NotFound 50°42.917N 014°50.963E 8 GOL-PP1
+GC118ET NotFound 50°42.148N 014°55.813E 9 GOL-PP2
+GC11AJV NotFound 50°40.381N 014°56.695E 40 GOL-PP3
+GC1YND4 NotFound 50°41.936N 014°50.330E 66 Hamerský_rybník
+GC1XNR5 NotFound 50°47.448N 015°03.174E 156 Harry_Potter_The_Sorcerer´s_Stone_-_night_cache
+GC1QXDK NotFound 50°47.314N 015°05.228E 250 Harry_Potter_cache
+GC1C8BP NotFound 50°44.218N 015°10.967E 1 Haskovy_vily
+GCVGJG NotFound 50°47.880N 014°48.839E 2 Havran
+GC1XRCM NotFound 50°34.396N 015°15.969E 3 Hedvika_a_Kilian
+GCMB8X NotFound 50°38.450N 014°30.925E 55 Hell`s_lizzard`n`frog_(Zahradky_u_Ceske_Lipy)
+GC116EB NotFound 50°34.049N 015°09.621E 1 Hlavatice
+GC1TBBK NotFound 50°48.326N 015°05.965E 151 Hledani_vyhledu_I
+GC1TFGX NotFound 50°49.002N 015°06.366E 111 Hledani_vyhledu_II
+GC1J6C4 NotFound 50°39.268N 014°32.528E 1 Hledej_Snehurku
+GC1N4J4 NotFound 50°49.492N 015°20.567E 12 Hnojovy_dum_-_Misthaus
+GC2MZKK NotFound 50°47.958N 015°07.921E 2 HOGO_FOGO_HOMOLKA
+GC11YQQ NotFound 50°30.866N 015°11.404E 3 Holenkove
+GC26FB4 NotFound 50°35.042N 014°40.861E 44 Holoubek_bez_Popelky_/_Pigeons_without_Cinderella
+GCXRNC NotFound 50°46.761N 015°04.872E 6 Hra_Libercem/Game_of_Liberec
+GC2TE1M NotFound 50°47.130N 015°11.381E 8 Hrabetice
+GC1QZE5 NotFound 50°51.452N 014°37.157E 99 Hradnikova_"33"_cache_/_Hradniks_Christ_the_summer
+GC1EA3E NotFound 50°48.214N 014°41.022E 10 Hradnikova_magicka_cache_/_Hradniks_magic_cache 
+GC1QZE6 NotFound 50°44.605N 014°35.414E 32 Hradnikova_sloupska_cache_/_Hradniks_Sloups_Cache
+GCWTVZ NotFound 50°51.439N 014°34.931E 45 HRANICAR/RANGER
+GC2M06P NotFound 50°45.510N 015°26.053E 21 Hratky_s_certy_na_Certaku
+GC2VPQY NotFound 50°39.338N 015°13.018E 32 Hrebenovka_nad_Splzov
+GC23JQD NotFound 50°45.309N 015°03.371E 84 Hybaj_hledat_H!
+GC27AR1 NotFound 50°49.689N 014°34.468E 11 hydrocefalus
+GCYJE9 NotFound 50°44.859N 014°37.823E 98 Cha_-_cha_cache_/_Cha_-_Cha_keš
+GC2K0TZ NotFound 50°46.715N 014°30.003E 1 Chirp:Ceska_Lipa
+GC1JNWC NotFound 50°36.823N 015°11.190E 2 Chocholka
+GC15FGM NotFound 50°44.738N 014°32.761E 11 Chotovicky_vrch_-_hrob
+GC1XHPX NotFound 50°48.704N 014°58.145E 54 Chrastava
+GC1K5AV NotFound 50°48.996N 014°57.844E 65 Chrastavska_muzea_(CZ)(DE)
+GC2AA0P NotFound 50°31.861N 015°22.333E 81 ICM_Lomnice_nad_Popelkou
+GC26WX1 NotFound 50°42.366N 015°11.880E 28 Indianska_cache
+GC135M8 NotFound 50°50.309N 015°08.496E 7 Island
+GC11TQH NotFound 50°42.789N 015°11.081E 2 Jablonecka_kalendarova
+GC1ERJK NotFound 50°42.335N 015°10.489E 8 Jablonecke_kostely_#5_-_sv.Jana_Nepomuckeho
+GC1E3MB NotFound 50°43.357N 015°10.607E 66 Jablonecky_zamecek
+GC2007A NotFound 50°38.668N 014°30.482E 45 Jadran_v_Zahradkach
+GC15AEJ NotFound 50°45.200N 015°26.248E 5 Janova_skala
+GC2BKV2 NotFound 50°44.944N 015°06.174E 4 Japonske_rebusy_#_1_-_SUDOKU
+GC2BKRV NotFound 50°46.980N 015°04.914E 45 Japonske_rebusy_#_2_-_NURIKABE
+GC2BM0K NotFound 50°43.529N 015°06.082E 44 Japonske_rebusy_#_3_-_KAKURO
+GC2BKVV NotFound 50°44.343N 015°06.865E 11 Japonske_rebusy_#_4_-_MASYU
+GC2E6E1 NotFound 50°44.460N 015°08.193E 21 Japonske_rebusy_#_5_-_SIKAKU
+GC1K7FF NotFound 50°44.094N 014°36.015E 11 Jedinecna
+GC2GN51 NotFound 50°45.111N 015°05.111E 78 Jednickova
+GC1E6J6 NotFound 50°45.922N 015°03.582E 10 Jednoducha_carakova_-_Simple_barcoded
+GC1MM7J Watchlist 50°49.887N 015°11.168E 44 Jeleni_skok
+GC14AQ7 NotFound 50°43.696N 014°59.461E 78 Jested_-_Night_Edition
+GC1P7NT NotFound 50°43.904N 015°09.228E 92 Jizdarna/Hippodrome
+GC13NGH NotFound 50°47.368N 015°19.223E 11 Jizerky_-_Sousska_prehrada_760m.n.m.
+GC18VBT NotFound 50°52.598N 015°10.449E 132 Jizerske_vyhledy_-_Na_Hratkach
+GC1PN91 NotFound 50°47.525N 015°06.863E 3 Jmeninova
+GC2XZV9 NotFound 50°39.958N 014°33.770E 44 KALOKAGATHIA
+GC2PNTN Found 50°45.738N 015°03.210E 88 Kanalove_poklopy
+GC198GN NotFound 50°38.176N 015°12.811E 91 Kantorovy_varhany/Cantor’s_Organ
+GC1AFGR Watchlist 50°44.181N 015°10.075E 1 Kaplicka_sv._Anny_ve_Msene
+GC1T236 NotFound 50°43.649N 015°02.295E 23 Kaplicka_sv._Vavrince_v_Pilinkove
+GC142C6 NotFound 50°32.183N 015°14.772E 22 Katova_tun
+GC27NJY NotFound 50°44.367N 015°10.991E 7 KDE_JSI
+GC274XA NotFound 50°35.464N 014°38.072E 44 Kde_se_ztraci_Machovo_jezero?
+GC1167N NotFound 50°38.054N 014°28.073E 13 Kdo_propadl_peklu.
+GC2RP6C NotFound 50°48.148N 015°07.927E 48 Klogertova_jedle
+GC10E3J NotFound 50°53.878N 015°00.048E 6 Kodesova_skala/_Kodes_rock
+GC1KKP5 Found 50°43.590N 015°08.820E 74 Kominova_I_-_teziste/centroid
+GC1KKP6 Found 50°43.829N 015°11.345E 11 Kominova_II_-_opsana_kruznice/circumcenter
+GC1KKP7 Found 50°43.884N 015°09.011E 188 Kominova_III_-_prusecik_vysek/orthocenter
+GC1KKP8 NotFound 50°44.307N 015°08.843E 123 Kominova_IV_-_vepsana_kruznice/incenter
+GC1PGFK NotFound 50°44.999N 015°09.555E 47 Kominova_V_-_Feuerbachova_kruznice
+GC1PP4G NotFound 50°42.807N 015°10.078E 241 Kominova_VI_-_Pripsane_kruznice/Excircles
+GC20ABT NotFound 50°31.788N 015°16.149E 11 Konec_Antimony
+GC22ETH NotFound 50°46.717N 015°02.381E 2 Konske_dostihy
+GCV95F NotFound 50°39.552N 015°09.828E 3 Kopanina
+GC2BJDV NotFound 50°42.979N 015°05.266E 4 Koralkova
+GCYHWB NotFound 50°44.607N 015°05.433E 8 Kostel_Nejsvetejsi_Trojice_-_Vratislavice
+GC1QNNT NotFound 50°46.493N 015°10.113E 4 Kostel_sv._Jana_Krtitele
+GC2DZTE NotFound 50°45.564N 015°00.557E 6 Kostel_sv._Vojtecha
+GCX2R3 NotFound 50°43.686N 015°04.071E 14 Kota 462_-_Vesecky_okruh_#1
+GCXMWB NotFound 50°35.725N 015°15.691E 88 Kozakov_Sudoku_Cache
+GC3A3YH NotFound 50°43.250N 015°23.950E 11 Krakonos_a_lyznici_jdou_do_skoly
+GC2JZ25 Found 50°43.494N 014°59.772E 13 KS#_05_Bonusova_Kes_Karoliny_Svetle_#01
+GC11QTV NotFound 50°41.020N 015°32.923E 11 La_Tenda_rossa
+GC2G2ZC NotFound 50°44.174N 015°00.764E 88 Lanovka_Horni_Hanychov_-_Skalka
+GC2K60W Found 50°48.956N 014°33.354E 47 Lasice-hranostaj
+GCYTGA Found 50°46.854N 015°05.256E 14 Les_zpiva
+GC2XG8M NotFound 50°43.289N 015°08.599E 32 Lesni_tramvaj_II_/_Waldbim_II
+GC29J8B NotFound 50°41.600N 015°23.543E 84 Letterbox_-_Tam_a_zase_zpatky
+GC1FC3E NotFound 50°40.842N 015°32.561E 32 Levinek
+GC16DP9 NotFound 50°46.105N 015°03.981E 41 Liberec_-_Liebiegovo_mestecko
+GC35N1P NotFound 50°46.240N 014°57.450E 33 Liberecka_jesterka_–_leva_predni_noha
+GC35N1T Found 50°45.664N 014°57.134E 74 Liberecka_jesterka_-_leva_zadni_noha
+GC35N1X NotFound 50°45.314N 014°58.139E 41 Liberecka_jesterka_-_oko
+GC35N1G NotFound 50°46.000N 014°58.080E 21 Liberecka_jesterka_-_prava_predni_noha
+GC35N1C NotFound 50°45.770N 014°57.860E 66 Liberecka_jesterka_-_prava_zadni_noha
+GCYZKY NotFound 50°46.071N 015°03.584E 74 Liberecka_radnice_/_Liberec_Town_hall
+GC10ZTJ NotFound 50°45.707N 015°03.403E 21 Liberecka_Slunecní_Cache_/_Liberec_Sunny_Cache
+GC35FY2 NotFound 50°46.043N 015°01.572E 1 Liberecka_zdravotnicka
+GCZPF6 NotFound 50°46.551N 015°02.869E 21 Liberecke_tramvaje
+GC1Z9JM NotFound 50°33.300N 015°24.978E 11 Libstatsky_kamenny_most
+GC1F20P NotFound 50°46.656N 015°04.848E 33 Lidove_Sady_Liberec_sifrovane_/_Popular_Orchards
+GC340C6 Found 50°38.631N 014°55.367E 84 LOKOMOBILA
+GC1047E NotFound 50°31.220N 015°21.914E 91 Lomnice_nad_Popelkou
+GC213MG NotFound 50°44.690N 015°07.709E 91 Lukasovske_opevneni
+GC16J3G NotFound 50°50.296N 014°32.900E 92 Lužické_sedmistovky/Lausitzer_Siebenhunderter
+GC28833 NotFound 50°42.678N 015°09.575E 11 Lyzarsky_vlek_Dobra_Voda
+GC2GR3F NotFound 50°29.654N 014°34.938E 113 Macha_v_Raji
+GC286G7 NotFound 50°40.854N 014°49.536E 21 MALY_JELENI_VRCH
+GC280G6 NotFound 50°48.314N 014°29.482E 47 Marsal_Ney
+GC2RHZJ NotFound 50°43.520N 015°07.605E 45 Matematicka_olympiada
+GC1W21R NotFound 50°46.995N 015°07.004E 32 Mesni_skala
+GC1BH2H NotFound 50°43.423N 015°10.301E 21 Mesto_skla_a_bizuterie
+GC1F3EE NotFound 50°43.848N 015°11.501E 74 Mestske_lazne_Paseky
+GC1RV1B NotFound 50°46.935N 015°07.463E 41 Meteorologicka
+GC157PD NotFound 50°35.244N 015°09.035E 21 Mezi_mosty
+GCX3X2 NotFound 50°53.202N 015°11.382E 54 Milý_ostrov
+GC2M9AP NotFound 50°44.718N 015°10.330E 68 Modra_je_dobra
+GCVQA2 NotFound 50°43.788N 015°05.827E 10 Mojzisuv_Pramen_-_Vesecky_okruh_#3
+GC31584 Found 50°36.404N 014°23.223E 50 Morove_rany_II.
+GC25MYE Found 50°39.957N 015°09.893E 60 Mozkovrtka_Skalni
+GC1RWGK NotFound 50°46.639N 015°06.700E 2 Mravenci_vyhlidka/Formic_vista
+GC36TQZ NotFound 50°42.523N 015°09.761E 0 Mrazik
+GC12A3Z Found 50°35.371N 015°09.418E 2 Muzeum_Ceského_ráje
+GC1D11R NotFound 50°40.930N 014°51.700E 54 My_Ukrajinci_remizy_neznajem
+GC35C3H NotFound 50°46.234N 014°44.905E 21 Na_Knoflik,_kacere,_na_Knoflik...
+GCNAZ0 NotFound 50°49.288N 014°38.453E 0 Nadeje_/_Der_Staudamm_Nadeje
+GC1DVEP NotFound 50°47.241N 014°39.419E 51 Nadeje_umira_posledni
+GC1TYE9 NotFound 50°35.256N 015°09.404E 0 Namesti_Ceskeho_raje
+GC2MVE3 NotFound 50°44.372N 014°58.592E 10 Naucna_stezka_"Terasy_Jestedu"
+GC1ED7E NotFound 50°32.021N 015°15.715E 22 NEJLEPSI_SESTRY_SVETA
+GC1HFQV NotFound 50°42.445N 015°27.483E 10 Nemelem_nemelem
+GC1ZENN Found 50°45.101N 015°09.798E 0 Nemy_Bobes
+GC25FY8 NotFound 50°46.595N 015°04.670E 22 Neptunova_kasna_Liberec_/_Neptune_Fountain
+GC13C06 NotFound 50°44.814N 014°28.775E 54 Neznalkova_cesta_do_Slunecniho_mesta
+GC1HWTG NotFound 50°33.403N 015°19.438E 0 No_jo,_ale_kolik_je_X?
+GC1WVHT NotFound 50°38.125N 015°13.757E 12 Nocni_dobrodruzstvi
+GC1MQAW NotFound 50°43.734N 015°11.456E 241 Nocni_upiri_Wherigo_-_cwg_smenarna
+GC1EN3D NotFound 50°43.441N 015°12.605E 12 Novoveska_fotbalova
+GC26DB4 NotFound 50°44.377N 015°09.506E 0 Novy_park
+GC12DP7 NotFound 50°41.337N 014°40.246E 32 NUZE,_WATSONE?/SO,_WATSON?
+GC1QG0V NotFound 50°45.769N 015°10.670E 55 O_Budulinkovi
+GC11ANQ Found 50°46.325N 014°47.402E 2 Obelix´s_trip
+GC182WW Found 50°45.074N 015°06.401E 54 Obet_nejvyssi_-_The_highest_victim
+GC18DD9 NotFound 50°46.047N 015°03.707E 10 Oblastni_galerie_v_Liberci
+GC159KY NotFound 50°30.684N 015°12.058E 9 Ocima_datla
+GC159VK NotFound 50°32.007N 015°14.362E 9 Ocima_stareho_sokola
+GC2N9PN NotFound 50°43.978N 015°10.539E 8 OKO_BERE
+GC1KZHK NotFound 50°49.843N 015°09.055E 45 Osamele_jizerske_pomnicky_3_-_Porscheho_smrt
+GC1KZJB NotFound 50°49.782N 015°11.133E 65 Osamele_jizerske_pomnicky_4_-_Kdo_jinemu_jamu_kopa
+GC1BVKP NotFound 50°45.429N 014°31.635E 1 Otaznik
+GC2VTKP NotFound 50°47.088N 014°59.091E 12 Pamatne_stromy_Liberce
+GC2Y3CF NotFound 50°35.136N 014°24.565E 35 Pamatne_stromy_ve_Skalce
+GC2M3BA NotFound 50°46.547N 015°03.963E 84 pamatnik_/_memorial
+GC2TK4D NotFound 50°34.991N 015°09.118E 65 Pamatny_buk
+GC2A6YK NotFound 50°43.802N 015°05.844E 41 Pamatny_dub_na_Orli_louce
+GC1PXG1 NotFound 50°35.582N 014°32.798E 11 Pan_Filuta_se_zlobí.....
+GC1E1QY NotFound 50°41.453N 015°23.842E 0 Pan_prstenu_#_1_-_Kraj
+GC1E65R NotFound 50°41.127N 015°26.633E 2 Pan_prstenu_#_2_-_Fangorn
+GC1E65W NotFound 50°46.316N 015°22.639E 3 Pan_prstenu_#_3_-_Odula
+GC1E660 Found 50°44.818N 015°32.024E 4 Pan_prstenu_#_4_-_Hora osudu
+GC2MJ5V Found 50°40.777N 015°13.444E 1 Panoramata
+GC1JH4B NotFound 50°38.655N 014°35.157E 45 Pat_a_Mat
+GC1ZF1R NotFound 50°38.411N 014°30.606E 0 Pavlik
+GC1TT7D NotFound 50°43.582N 015°18.947E 32 Pavlinka_aneb_konec_textilu_v_Cechach
+GC16965 NotFound 50°48.590N 015°04.507E 54 Pavucinka
+GC2W50Q NotFound 50°44.277N 015°10.261E 21 Pepicek_jde_do_skolky
+GC1R7NX NotFound 50°46.297N 015°25.497E 0 Pernikova_chaloupka
+GC1W2RY NotFound 50°48.416N 014°28.019E 54 Pocitani_ovecek
+GC1FJBK NotFound 50°45.352N 015°13.930E 74 Pocta_Jane_Austenove_-_Tribute_to_Jane_Austen
+GC2QAXB NotFound 50°24.270N 014°18.157E 32 Podripsko_literarni_#1:_Broucci
+GC35DHJ NotFound 50°35.328N 015°08.331E 29 Podzimni_malovani/The_Autumn_painting
+GC2NTT7 NotFound 50°58.286N 015°01.269E 27 Pohanske_kameny
+GC1810X NotFound 50°46.235N 015°26.042E 44 Poklad_piratu_/_Pirate´s_treasure
+GC26FB3 NotFound 50°34.547N 014°41.600E 100 Popelka_bez_holoubka_/_Cinderella_without_the_pige
+GC32456 NotFound 50°35.787N 014°24.827E 85 POSLEDNI_KRIZOVA_CESTA
+GC2H9YG NotFound 50°45.885N 015°03.149E 12 Povolebni...
+GC2QBXG NotFound 50°43.973N 015°05.774E 32 Pozorovatelna/Loophole
+GCVQAW NotFound 50°45.469N 015°05.341E 41 Práce_pro_Columba_/_Task_for_Columbo
+GC1T7JA Found 50°42.144N 015°12.842E 48 Pramen_Zernovniku
+GC137NY NotFound 50°41.716N 014°39.672E 19 Pramen_Trí_svatých
+GC133XJ NotFound 50°43.544N 015°13.634E 18 Prameny_Nisy_#1
+GC19GYE NotFound 50°44.266N 015°10.553E 39 Prehradni_zahada
+GC2NK1T NotFound 50°45.704N 015°06.984E 27 Princezna_z_Harcova
+GC2CXJ2 NotFound 50°45.227N 015°02.736E 45 Pruhovane_prase_?
+GC1HFQF NotFound 50°45.389N 015°04.928E 32 PSZ_-_1
+GC2RRK0 NotFound 50°36.167N 015°18.073E 12 Pub_Tour_Bonus
+GC2RA6A NotFound 50°40.291N 014°33.224E 0 Pulnocni_projektant
+GC269EA Found 50°42.232N 015°25.440E 11 Rakosnicek_aneb_ucime_se_hrát_Wherigo
+GC19XBP NotFound 50°31.599N 015°04.795E 28 Rasovina_2007
+GC1KCKH NotFound 50°32.674N 014°32.185E 17 Receptova_cache
+GC27JBZ NotFound 50°38.225N 014°26.404E 2 Retezovka_-_Catenary
+GC1YB78 NotFound 50°45.027N 015°03.517E 3 Rochlice_-_kostel
+GC17JBE NotFound 50°32.083N 015°16.492E 14 Rovenská
+GC19VK6 NotFound 50°36.475N 014°33.882E 4 Rozec
+GC210GB NotFound 50°39.594N 015°23.630E 21 Rozhledna_U_Borovice
+GC2P455 NotFound 50°43.457N 015°09.361E 11 rychla_smrt
+GC2W5EW NotFound 50°43.089N 015°04.323E 29 RYCHLOSTNICE_PRAHA_–_LIBEREC_(NIGHT EDITION)
+GC18B42 NotFound 50°43.019N 015°14.365E 14 Sankarska_draha_/_luge´s_track_Smrzovka
+GC19EPA NotFound 50°38.916N 015°15.562E 32 Sibenicni_vrch/Gallows_hill
+GC1T9V1 NotFound 50°40.447N 015°08.862E 44 Sifrovaci_hricky_II.
+GC2HV72 NotFound 50°42.536N 015°09.579E 45 Silvestrovska
+GC286RN NotFound 50°54.200N 015°12.644E 74 Singltrek_II.
+GC2XAXX NotFound 50°40.902N 014°31.637E 65 Sipkova
+GC1JPF2 NotFound 50°35.505N 014°51.144E 21 Skalni_hradek_Slapka
+GC1W28W NotFound 50°46.039N 015°25.938E 35 Skoky_na_lyzich_/_Ski_jumping
+GCYGTW NotFound 50°44.810N 015°06.069E 84 Slunicko_-_Vratislavice
+GC24X5J NotFound 50°41.523N 014°53.538E 35 SMENARNA_-_EXCHANGE_–_CWG
+GC238E7 NotFound 50°45.579N 015°03.457E 74 Smrt
+GC1908M NotFound 50°46.279N 015°04.132E 31 Snad_temna_naruc_pekla?
+GC269PJ NotFound 50°40.813N 015°24.431E 0 Snehurka
+GC1QC8F NotFound 50°37.318N 015°08.616E 21 Sneni_/_Dreamery 
+GC2CF0P NotFound 50°32.371N 014°42.620E 1 Snilek
+GC21MX7 NotFound 50°46.172N 015°03.308E 3 Sokolovsky_tunel
+GC18QW6 NotFound 50°36.849N 014°32.579E 3 Soudce_a_zlocinec
+GC2ADT8 NotFound 50°45.021N 015°11.107E 44 Spadla_z_oblakov
+GC14JP3 NotFound 50°47.433N 014°58.450E 88 Srdce
+GC2GPGW NotFound 50°47.111N 015°12.534E 45 Srdickova
+GC1HZ5N NotFound 50°42.986N 015°08.931E 99 Srnci_dul
+GC2E8RC NotFound 50°49.607N 015°04.286E 154 STAND_UP
+GC11GNW NotFound 50°37.426N 015°26.495E 14 Starousek
+GCWGDT NotFound 50°34.145N 014°35.302E 32 Starý_Berštejn_/_Old_Berstein
+GC26JX2 NotFound 50°41.596N 014°32.420E 45 Straznik
+GC182VD NotFound 50°41.467N 014°32.057E 74 Strelnice
+GC2JKW8 NotFound 50°41.175N 014°32.371E 32 Stroboskop
+GC1092H NotFound 50°45.015N 015°09.868E 85 Studna/Well,_ver._2
+GC1J6J1 NotFound 50°44.217N 014°59.315E 54 sudoku_cache
+GC24X2F NotFound 50°36.468N 014°34.569E 11 Sv._Jan_Nepomucky_/_EN
+GCYMG7 NotFound 50°43.965N 015°05.948E 32 sv._Vaclav_-_Vratislavice
+GCVQA7 NotFound 50°43.810N 015°04.840E 5 Taich_-_Vesecky_okruh_#4
+GC2HZN7 NotFound 50°42.519N 015°08.116E 1 Tajemstvi_archivu_dr._Watsona
+GC28V54 NotFound 50°41.250N 014°53.383E 87 TAJEMSTVI_KOCICICH_SKAL
+GC2GTN3 NotFound 50°35.070N 015°09.556E 0 Tajemstvi_pana_Dr._/_Secret_of_Mr._Dr.
+GC2H1D5 NotFound 50°47.591N 014°43.785E 1 Tajna_vojenska_zakladna_v_Hermanicich_v_Podjestedi
+GC2PQ2N NotFound 50°43.151N 015°13.405E 65 Tak_anebo_tak
+GC34Q51 NotFound 50°50.572N 015°20.319E 74 Tam_kde_se_ztraci_reka
+GC1MF58 NotFound 50°44.151N 015°10.576E 1 The_Sculptures_Of_Jablonec_nad_Nisou
+GC1N1TA NotFound 50°44.280N 015°09.687E 0 Treninkove_centrum_Mseno
+GC2JX12 NotFound 50°35.495N 014°38.423E 111 Tri_ukoly_pro_tri_prince
+GC14MWK NotFound 50°43.546N 014°35.945E 32 Trináctá_komnata_-_KHzPaB
+GC1JMGB NotFound 50°30.683N 015°13.287E 55 Troskovicke_lipy
+GC11764 NotFound 50°46.407N 015°04.578E 94 TUL
+GC1CZNF NotFound 50°33.854N 015°28.881E 12 Tulackuv_statek
+GC1Q3BD NotFound 50°44.342N 014°33.845E 32 Tvrznik
+GC2N77V NotFound 50°45.232N 015°10.461E 84 Ty_lesniku,_kouzelniku,_ty_jsi_lesa_pan!
+GC296EW NotFound 50°37.056N 015°20.379E 54 U_Kremilka_a_mozna_i_Vochomurky_:o)
+GCXWAZ NotFound 50°47.653N 015°04.884E 21 U_Obrazku
+GC2RT1M Watchlist 50°45.276N 015°02.463E 41 Uzka_kes
+GC1128T NotFound 50°33.745N 015°09.775E 32 Valdstejn
+GC1JRWV NotFound 50°45.134N 015°08.700E 84 Vanocni_cache
+GC2GB27 NotFound 50°38.936N 014°29.832E 32 Vecerni_vyrazeni
+GC1PKXZ NotFound 50°45.820N 015°03.347E 1 Vesela_Zed_-_Cheerful_Wall
+GC1KV7H NotFound 50°48.989N 015°07.339E 0 Vetrna_Lhota
+GC15GAA NotFound 50°42.705N 014°31.078E 3 Vidim_Sever
+GC20E7G NotFound 50°43.586N 015°10.600E 54 vila_Steinberg
+GCXYRW NotFound 50°46.100N 015°04.372E 9 Vodní_dílo_Harcov_/_Harcov_Dam
+GC1WTRF NotFound 50°46.499N 015°24.596E 4 Vodnik_Pantoflicek
+GC1ZDEQ NotFound 50°44.139N 015°07.921E 10 VogelStein
+GCYMG8 NotFound 50°43.960N 015°06.612E 0 Vratislavicka_kyselka
+GC12JRP NotFound 50°44.416N 015°05.416E 1 Vratislavická_nádražní
+GC2D3XJ NotFound 50°45.098N 015°05.702E 45 Vratislavicky_mustek
+GC2Z15A NotFound 50°46.265N 015°03.664E 10 VTA_#10_-_Telefonni_budka_-_Prvni_bonus
+GC2ZMA0 NotFound 50°35.221N 015°08.371E 1 VTA_#30_-_Telefonni_budka_-_Treti_bonus
+GC1ZEXJ NotFound 50°45.040N 015°06.563E 97 Vyhlidka_pro_Columba_/_Lookout_for_Columbo
+GC332MF NotFound 50°32.163N 015°14.619E 87 Vyhlidka_Svatopluka_Cecha
+GC3A99M NotFound 50°40.997N 014°32.945E 12 Vylety_do_historie_Ceske_Lipy
+GC1D341 Watchlist 50°41.217N 015°26.201E 0 Vysoke_nad_Jizerou
+GCKJTC NotFound 50°32.112N 015°08.601E 54 Vyzva_/_Challenge
+GC2ZBW5 NotFound 50°45.593N 015°01.926E 87 Vzpominka_na_smetak_-_minimulti
+GCVFN1 NotFound 50°44.873N 015°05.374E 44 Zachraneny_pivovar_-_Vratislavice
+GC2PZPD NotFound 50°37.991N 014°25.301E 1 Zamek
+GC2QWPE NotFound 50°43.115N 014°32.447E 85 Zanikly_hrbitov 
+GC105TR NotFound 50°40.919N 014°29.845E 86 zapomenuty_pomnik_II.
+GC10XRA NotFound 50°39.868N 014°30.444E 12 zapomenuty_pomnik_III.
+GC2NGFX NotFound 50°46.146N 015°03.529E 89 Zarovka_/_LIGHT_BULB
+GC2CN33 NotFound 50°41.758N 014°48.065E 86 zasilhej_si
+GC1M1NJ NotFound 50°46.478N 015°03.595E 64 Zastavka_/_Bus_stop
+GC21HDN NotFound 50°49.065N 014°34.805E 61 ZIMNI_VECER
+GC233JE NotFound 50°41.435N 014°32.187E 63 Zmaten_v_16-ti
+GC11FDD NotFound 50°36.321N 014°26.344E 69 Ztraceny_hradek_u_Hvezdy
+GC1A6FE NotFound 50°46.893N 015°03.712E 21 Zvuk_slunecnich_hodin
