@@ -56,15 +56,17 @@ public class GCcoordinates {
                     try{
                      /*   
                         GC9K5R8
-                        50°47.311N
-                        015°05.035E
+                        Found
+                        50.47.311N
+                        015.05.035E
+                        40
                         Bajkerská
                         
                         */
                     System.out.println("Where you wanna write new cache (in ./Data/....)");
                     source = sc.next();
-                    System.out.println("Enter gradually: GCcode, Found status, Latitude NN°NN.NNNC, Longtitude NNN°NN.NNNC. amount of favourite points and Name");
-                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),Found.valueOf(sc.next()),sc.next(),sc.next(),sc.nextInt(),sc.next()));
+                    System.out.println("Enter gradually: GCcode, Found status, Latitude NN.NN.NNNC, Longtitude NNN.NN.NNNC. amount of favourite points and Name");
+                    database.addCacheToFile(new File("./Data/"+source), new Cache(sc.next(),Found.valueOf(sc.next()),sc.next().replaceFirst("[.]","°"),sc.next().replaceFirst("[.]","°"),sc.nextInt(),sc.next()));
                     //database.addCacheToFile(new File("./Data/Database_other1.txt"), new Cache("GC9GYD3","50°45.502N","015°04.171E","Znám Liberec? IV."));
                     System.out.println("set up successfully");
                     }catch(Exception e){
@@ -92,14 +94,14 @@ public class GCcoordinates {
                     }
                     /*
                                         h  m           h   m
-                    Liberec             50°46.176N     015°01.110E
-                    Jablonec            50°42.945N     015°11.365E
-                    Česká Lípa          50°41.193N     014°32.220E
-                    Semily              50°36.114N     015°20.131E
-                    Nový Bor            50°45.456N     014°33.333E
-                    Hrádek nad Nisou    50°51.167N     014°50.672E
-                    Frýdlant            50°55.283N     015°04.784E
-                    Český Dub           50°39.574N     014°59.740E
+                    Liberec             50.46.176N     015.01.110E
+                    Jablonec            50.42.945N     015.11.365E
+                    Česká Lípa          50.41.193N     014.32.220E
+                    Semily              50.36.114N     015.20.131E
+                    Nový Bor            50.45.456N     014.33.333E
+                    Hrádek nad Nisou    50.51.167N     014.50.672E
+                    Frýdlant            50.55.283N     015.04.784E
+                    Český Dub           50.39.574N     014.59.740E
                     */
                     System.out.println("Enter the latitude degrees of the upper left corner of the rectangle in format NN.NN.NNND N = number D = char (N or S)");
                     latcoordslu = sc.next();
@@ -181,6 +183,13 @@ public class GCcoordinates {
                         System.out.println("something went wrong");
                     }
                     break;
+                case 5:
+                    System.out.println("1-add new cache to database - will add new cache to database");
+                    System.out.println("2-find cache in rectangle - after saying left top corner coords and right down coords of rectangle, it will return caches in this rectangle");
+                    System.out.println("3-show all from file - will write all caches from file");
+                    System.out.println("4-show all from binary file - will write all codes from binary file");
+                    System.out.println("\n");
+                    break;
                 default:
                     break;
             }
@@ -190,14 +199,23 @@ public class GCcoordinates {
                 choice = sc.nextInt();
                 switch(choice){
                 case 1:
+                    try{
                     //System.out.println(("http://"+ actualDatabase.getLoadedCaches().get(choicecache-1).getLink()));
                     String url_open ="https://"+ actualDatabase.getLoadedCaches().get(choicecache-1).getLink();
                     java.awt.Desktop.getDesktop().browse(java.net.URI.create(url_open));
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                        System.out.println("something went wrong");
+                    }
                     break;
                 case 2:
-                    
+                    try{
                     String url_open_coords ="https://www.google.com/maps/@"+ actualDatabase.getLoadedCaches().get(choicecache-1).getCoordsinGoogleFormat()+",14z" ;
                     java.awt.Desktop.getDesktop().browse(java.net.URI.create(url_open_coords));
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                        System.out.println("something went wrong");
+                    }
                     break;
                 case 3:
                     try{
@@ -220,6 +238,7 @@ public class GCcoordinates {
                     }
                     break;
                 case 5:
+                    try{
                     System.out.println("choose another from database");
                     choiceothercache = sc.nextInt();
                     latfirstFormat =  Double.parseDouble(database.getLoadedCaches().get(choicecache-1).getLatFormat());
@@ -227,8 +246,13 @@ public class GCcoordinates {
                     latsecondFormat =  Double.parseDouble(database.getLoadedCaches().get(choiceothercache-1).getLatFormat());
                     longsecondFormat =  Double.parseDouble(database.getLoadedCaches().get(choiceothercache-1).getLongFormat());
                     MapWindow window = new MapWindow();
-                    window.addSegment( new Segment( new Point(latfirstFormat, longfirstFormat), new Point(45, -1), Color.RED));
+                    window.addSegment( new Segment( new Point(latfirstFormat, longfirstFormat), new Point(latsecondFormat, longsecondFormat), Color.RED));
                     window.setVisible(true);
+                        System.out.println("Distance between is " + CoordinatesMethods.distance(latfirstFormat, longfirstFormat, latsecondFormat, longsecondFormat)+ "km");
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                        System.out.println("something went wrong..."); 
+                    }
                     break;
                 default:
                     break;
@@ -238,8 +262,8 @@ public class GCcoordinates {
             mainMenu();
         }
         }catch(Exception e){
-            System.out.println("Wrong input");
             System.out.println(e.getMessage());
+            System.out.println("wrong input");
         }
     }
     
@@ -248,6 +272,7 @@ public class GCcoordinates {
         System.out.println("2-find caches in rectangle");
         System.out.println("3-show all from file");
         System.out.println("4-show codes from Binary file");
+        System.out.println("5-Help menu");
         System.out.println("0-end app");
         
     }
