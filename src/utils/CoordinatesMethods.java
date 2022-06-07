@@ -59,4 +59,9 @@ public class CoordinatesMethods {
         Coordinates coords = newCoordinates(partslat[1].charAt(partslat[1].length() - 1), Integer.parseInt(partslat[0]), Double.parseDouble(partslat[1].substring(0, partslat[1].length() - 1)), partslong[1].charAt(partslong[1].length() - 1), Integer.parseInt(partslong[0]), Double.parseDouble(partslong[1].substring(0, partslong[1].length() - 1))); 
         return coords;
     }
+    
+    public static double distance(double latone, double longone, double lattwo, double longtwo){
+        return 100*Math.sqrt(Math.abs(Math.pow((latone-lattwo),2) + Math.pow((longone-longtwo),2)));
+    
+    }
 }
