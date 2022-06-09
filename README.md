@@ -1,16 +1,33 @@
-# Vyhledávání souřadnic dle kritérií
-Mám poměrně dlouhý soubor se souřadnicemi keší na stránce geocaching.com, jenže je řazen podle abecedy, tudíž občas vyhledávání není ideální.
+# Zadání práce 
 
-Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové. Funkce můžou přibývat dle podmínek
+Mám poměrně dlouhý soubor se souřadnicemi keší ze stránky geocaching.com, jenže je řazen podle abecedy, tudíž občas vyhledávání není ideální.
+Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/jména je filtrovat. Pomocí GC kódu vytvořit odkaz na stránku keše. Do seznamu se bude dát taky přidávat nové.
+### Postup:
+  1)	Vytvořit modely Cache a Databáze
+  2)	Vytvořit načtení, zpracování a výpis z textového souboru
+  3)	Vytvořit funkce zápisu a čtení ze souboru
+  4)	Vytvořit metody pracující se souřadnicemi
+  5)	Vytvořit filtry a sorty databáze
+  6)	Vytvořit Main program
+  7)	Dodělat všechny požadované body
+  8)	Testovat a ošetřovat kód
+
 
 ### Funkce
-Po zadání souřadnic levého horního rohu a pravého dolního rohu (obdelník dající se přirovnat k obrazovce mobilu) vyhledá v souboru všechny souřadnice v tomto obdelníku<br><br>
-Ze seznamu souřadnic v obdelníku bude uživatel moci vybrat konkrétní a:   
-* vytvořit internetový odkaz na cache<br>
-* otevřít bod na mapě<br>
-* uložit do "speciálního" textového dokumentu jen pro uložené body (ten se bude dát procházet,mazat)<br><br>
-
-Do souboru se budou moci přidávat nové souřadnice a odebírat staré
+- Přidat novou keš do zvolené databáze<br>
+- Vypsat všechny keše z textové databáze<br>
+- Vypsat všechny kódy keší z binární databáze<br>
+	  - Seřadit je podle Gckódu abecedně<br>
+	  - Seřadit je podle množství FP<br>
+	  - Filtrovat pouze nalezené<br>
+	  - Filtrovat pouze nenalezené<br>
+	  - Filtrovat pouze watchlist<br>
+- Vybrat si jednu keš se kterou můžeme:<br>
+		      - Otevřít na internetu<br>
+		      - Otevřít na mapě<br>
+		      - Nastavit nalezenou<br>
+		      - Nastavit watchlist<br>
+		      - Vzdálenost mezi 2ma body<br>
 
 ### Příklad ze souboru
 GC kód jméno souřadnice
