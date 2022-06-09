@@ -12,7 +12,6 @@ Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/jména je fi
   7)	Dodělat všechny požadované body
   8)	Testovat a ošetřovat kód
 
-
 ### Funkce
 - Přidat novou keš do zvolené databáze<br>
 - Vypsat všechny keše z textové databáze<br>
@@ -29,12 +28,47 @@ Z tohoto seznamu bych chtěl čerpat informace a pomocí souřadnic/jména je fi
 		      - Nastavit watchlist<br>
 		      - Vzdálenost mezi 2ma body<br>
 
-### Příklad ze souboru
-GC kód jméno souřadnice
+# Struktura vstupních a výstupních souborů
 
-GC28VHF Stihacka 49°41.041N, 014°00.291E
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Structure1.png?raw=true) <br>
+Kus zápisu z database.txt, 1. řádek je obecná informace co se na řádku nachází. Poté jsou zapsány informace v pořadí: <br>
+Code, state, Latitutu, Longtitude, favorite points count, name oddělené mezerou u jména jsou mezery nahrazené _ aby se dalo číst jako 1 slovo.
 
-GC3EV4M Stinkyho fretci keska 50°21.550N, 014°28.833E
+
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/StructureBin.png?raw=true) <br>
+Kus zápisu v BinaryDB.txt obsahuje na začátku počet kódů a poté jednotlivé kódy, které se postupně načítají
+
+# Class diagram
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/ClassDiagram.png?raw=true)
+
+# Testování
+
+1)  Přidání Cache <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test11.png?raw=true) 
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test12.png?raw=true)
+2)  Seřadit dle Gckodu <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test2.png?raw=true)
+3) Filtrovat Watchlist <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test3.png?raw=true)
+4) Vyhledat v obdelníku <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test4.png?raw=true)
+5) Vypsat Binární soubor (z BinaryDB.txt) <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test5.png?raw=true)
+6) Help menu <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test6.png?raw=true)
+7) Špatný vstup hned na začátku <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test7.png?raw=true)
+8) Soubor který neexistuje <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test8.png?raw=true)
+9) Špatné souřadnice <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test9.png?raw=true)
+10) Otevření odkazu na internetu <br>
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test101.png?raw=true)
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/Test102.png?raw=true)
+
+# Externí knihovna
+![alt text](https://github.com/TomasChmelar21/2122ALG2-Chmelar-Souradnice/blob/main/ReadMe_pictures/ExterniKnihovna.png?raw=true) <br>
+Zvolil jsem externí knihovnu MiniGeo, která umožňuje vykreslovat segmenty na mapě. Lze v ní posouvat oddalovat, je tam měřítko vzdálenosti.
 
 ## Podmínky:
 Menu, které umožní opakovaný výběr funkcí aplikácie a ukončení aplikace✅
